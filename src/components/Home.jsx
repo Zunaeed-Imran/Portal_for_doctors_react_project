@@ -5,7 +5,7 @@
 function Home() {
 
   return (
-    <div className="bg-[url('assets/marcelo-leal-6pcGTJDuf6M-unsplash.jpg')]">
+    <div className="bg-[url('assets/marcelo-leal-6pcGTJDuf6M-unsplash.jpg')] w-full p-10">
       <h1 className="text-3xl font-bold underline">
         Welcome To Anesthesiologists Specilist
       </h1>
@@ -72,7 +72,7 @@ function Home() {
         such as heart rate and rhythm, breathing, blood pressure, body
         temperature, fluid, and electrolyte balance
       </h5>
-      
+
     </div>
   );
 }
