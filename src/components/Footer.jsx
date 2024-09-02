@@ -83,75 +83,75 @@ export default  function Footer() {
                   ></i> */}
                 </a>
                 <a href="#">
-                  <i
+                  {/* <i
                     className="fa-3x fa-brands fa-laravel"
                     style="color: #f31212;"
-                  ></i>
+                  ></i> */}
                 </a>
                 <a href="#">
-                  <i
+                  {/* <i
                     className="fa-3x fa-brands fa-php"
                     style="color: #1262ed;"
-                  ></i>
+                  ></i> */}
                 </a>
                 <a href="#">
-                  <i
+                  {/* <i
                     className="fa-3x fa-brands fa-node"
                     style="color: #48e54b;"
-                  ></i>
+                  ></i> */}
                 </a>
                 <br />
                 <a href="#">
-                  <i
+                  {/* <i
                     className="fa-3x fa-brands fa-data-base"
                     style="color: #1262ed;"
-                  ></i>
+                  ></i> */}
                 </a>
                 <a href="#">
-                  <i
+                  {/* <i
                     className="fa-3x fa-brands fa-css3-alt"
                     style="color: #1f62ff;"
-                  ></i>
+                  ></i> */}
                 </a>
                 <a href="#">
-                  <i
+                  {/* <i
                     className="fa-3x fa-brands fa-docker"
                     style="color: #3b71ce;"
-                  ></i>
+                  ></i> */}
                 </a>
                 <a href="#">
-                  <i
+                  {/* <i
                     className="fa-3x fa-brands fa-git"
                     style="color: #ce453b;"
-                  ></i>
+                  ></i> */}
                 </a>
                 <a href="#">
-                  <i
+                  {/* <i
                     className="fa-3x fa-brands fa-square-gitlab"
                     style="color: #eb5e00;"
-                  ></i>
+                  ></i> */}
                 </a>
                 <br />
                 <a href="#">
-                  <i
+                  {/* <i
                     className="fa-3x fa-brands fa-gitkraken"
                     style="color: #3b6fc9;"
-                  ></i>
+                  ></i> */}
                 </a>
                 <a href="#">
-                  <i
+                  {/* <i
                     className="fa-3x fa-brands fa-html5"
                     style="color: #dd3636;"
-                  ></i>
+                  ></i> */}
                 </a>
                 <a href="#">
-                  <i className="fa-3x fa-solid fa-database"></i>
+                  {/* <i className="fa-3x fa-solid fa-database"></i> */}
                 </a>
                 <a href="#">
-                  <i
+                  {/* <i
                     className="fa-3x fa-brands fa-bootstrap"
                     style="color: #0561ff;"
-                  ></i>
+                  ></i> */}
                 </a>
               </div>
 
@@ -224,20 +224,20 @@ export default  function Footer() {
                 <h6>ADDRESS</h6>
 
                 <p>
-                  <i
+                  {/* <i
                     className="fa-regular fa-envelope"
                     style="color: #74C0FC;"
-                  ></i>{' '}
+                  ></i>{' '} */}
                   itlogiko@gmail.com
                 </p>
                 <p>
-                  <i className="fa-solid fa-phone"></i> 01312-383745
+                  {/* <i className="fa-solid fa-phone"></i> 01312-383745 */}
                 </p>
                 <p>
-                  <i
+                  {/* <i
                     className="fa-solid fa-location-dot"
                     style="color:#3039e3;"
-                  ></i>
+                  ></i> */}
                   Level-10, Shakh Hasina Software Technology Park, Nazir
                   Sonkorpur Road, Jashore-7400, bangladesh.
                 </p>
