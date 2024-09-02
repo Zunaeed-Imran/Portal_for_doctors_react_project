@@ -14,7 +14,7 @@ export default function Footer() {
       {/* footer section. */}
 
       <footer className="pt-5">
-        
+
         {/* <!-- it is social icon section  --> */}
         <section className="border-2	">
           {/* <!-- it is just text and company logo section  --> */}
@@ -166,61 +166,61 @@ export default function Footer() {
                 <h6>SERVICE</h6>
                 <a
                   className="text-decoration-none text-black"
-                  href="argunment_service.php"
+                  href="#"
                 >
                   <p>Team Augmentation Services</p>
                 </a>
                 <a
                   className="text-decoration-none text-black"
-                  href="app_service.php"
+                  href="#"
                 >
                   <p>App Development Service</p>
                 </a>
                 <a
                   className="text-decoration-none text-black"
-                  href="web_service.php"
+                  href="#"
                 >
                   <p>Web Design and Development</p>
                 </a>
                 <a
                   className="text-decoration-none text-black"
-                  href="web_maintain_service.php"
+                  href="#"
                 >
                   <p>Website Maintenance</p>
                 </a>
                 <a
                   className="text-decoration-none text-black"
-                  href="e_commarce_service.php"
+                  href="#"
                 >
                   <p>E-Commerce Solution</p>
                 </a>
                 <a
                   className="text-decoration-none text-black"
-                  href="domain_service.php"
+                  href="#"
                 >
                   <p>Domain Services</p>
                 </a>
                 <a
                   className="text-decoration-none text-black"
-                  href="hosting_service.php"
+                  href="#"
                 >
                   <p>Hosting Services</p>
                 </a>
                 <a
                   className="text-decoration-none text-black"
-                  href="mvp_service.php"
+                  href="#"
                 >
                   <p>MVP Service</p>
                 </a>
                 <a
                   className="text-decoration-none text-black"
-                  href="office_expension_service.php"
+                  href="#"
                 >
                   <p>Offshore Ofice Expansion</p>
                 </a>
                 <a
                   className="text-decoration-none text-black"
-                  href="end_to_end_service.php"
+                  href="#"
                 >
                   <p>End to end Development</p>
                 </a>
