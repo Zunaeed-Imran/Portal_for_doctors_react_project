@@ -5,7 +5,7 @@
 function Home() {
 
   return (
-    <div className="bg-[url('assets/marcelo-leal-6pcGTJDuf6M-unsplash.jpg')] w-full p-10">
+    <div className="bg-[url('assets/marcelo-leal-6pcGTJDuf6M-unsplash.jpg')] w-full p-1">
       <h1 className="text-3xl font-bold underline">
         Welcome To Anesthesiologists Specilist
       </h1>
@@ -14,41 +14,41 @@ function Home() {
         Why people go to Anesthesiologists specilist?
       </h3>
 
-      <li className="text-body-emphasis">
+      <li className="">
         <b>Surgery: </b> Anesthesiologists play a crucial role in ensuring
         patients are comfortable and pain-free during surgical procedures. They
         administer anesthesia and monitor the patients vital signs throughout
         the surgery.
       </li>
 
-      <li className="text-body-emphasis">
+      <li className="">
         <b>Pain Management:</b> Anesthesiologists are involved in managing pain
         in various medical situations, such as chronic pain conditions or
         postoperative pain. They use different techniques and medications to
         help patients manage pain effectively.
       </li>
 
-      <li className="text-body-emphasis">
+      <li className="">
         <b>Labor and Delivery: </b> Anesthesiologists are often involved in
         providing pain relief during childbirth. They may administer epidurals
         or other forms of anesthesia to make the process more comfortable for
         the mother.
       </li>
 
-      <li className="text-body-emphasis">
+      <li className="">
         <b>Critical Care:</b> In critical care settings, Anesthesiologists may
         be involved in managing patients who are on life support or require
         intensive care. They have expertise in managing complex medical
         conditions and ensuring patients are stable.
       </li>
 
-      <li className="text-body-emphasis">
+      <li className="">
         <b>Preoperative Assessment: </b> Before surgery, Anesthesiologists
         assess patients to determine the most appropriate anesthesia plan based
         on the patients medical history and the type of surgery.
       </li>
 
-      <li className="text-body-emphasis">
+      <li className="">
         <b> Emergency Situations:</b> In emergency situations, Anesthesiologists
         may be called upon to provide rapid and effective anesthesia in critical
         conditions.
