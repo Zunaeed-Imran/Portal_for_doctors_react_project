@@ -3,11 +3,18 @@
 
 
 
-export default  function Footer() {
+export default function Footer() {
+  
+
   return (
+
+
     <div>
-      {/* <!-- end of main section start footer section.  --> */}
+
+      {/* footer section. */}
+
       <footer className="pt-5">
+        
         {/* <!-- it is social icon section  --> */}
         <section className="border-2	">
           {/* <!-- it is just text and company logo section  --> */}
