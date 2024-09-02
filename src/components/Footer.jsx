@@ -22,10 +22,10 @@ export default function Footer() {
           <div className="container flex justify-center px-5">
             <div>
               <a href="#">
-                {/* <i className="fa-solid fa-globe" style="color:#3039e3;"> */}
+                <i className="fa-solid fa-globe" style={{color: '#3039e3'}}>
                   {' '}
                   ITLogiko
-                {/* </i> */}
+                </i>
               </a>
               <p>Grow Your Online Business And Improve Customer Retention</p>
             </div>
@@ -34,43 +34,43 @@ export default function Footer() {
             <div className="">
               <div className="col-auto flex-row">
                 <a href="#">
-                  {/* <i
+                  <i
                     className="fa-2x fa-brands fa-linkedin"
-                    style="color: #0079fa;"
-                  ></i> */}
+                    style={{color: '#0079fa'}}
+                  ></i>
                 </a>
                 <a href="#">
-                  {/* <i
+                  <i
                     className="fa-2x fa-brands fa-square-twitter"
-                    style="color:#3378e8;"
-                  ></i> */}
+                    style={{color: '#3378e8'}}
+                  ></i>
                 </a>
                 <a href="#">
-                  {/* <i
+                  <i
                     className="fa-2x fa-brands fa-github"
-                    style="color: #212326;"
-                  ></i> */}
+                    style={{color: '#212326'}}
+                  ></i>
                 </a>
                 <a href="#">
-                  {/* <i
+                  <i
                     className="fa-2x fa-brands fa-google-plus"
-                    style="color: #33e84e;"
-                  ></i> */}
+                    style={{color: '#33e84e'}}
+                  ></i>
                 </a>
                 <a href="#">
-                  {/* <i
+                  <i
                     className="fa-2x fa-brands fa-square-instagram"
-                    style="color:#e833df;"
-                  ></i> */}
+                    style={{color:'#e833df'}}
+                  ></i>
                 </a>
                 <a href="#">
-                  {/* <i className="fa-2x fa-brands fa-facebook"></i> */}
+                  <i className="fa-2x fa-brands fa-facebook"></i>
                 </a>
                 <a href="#">
-                  {/* <i
+                  <i
                     className="fa-2x fa-brands fa-youtube"
-                    style="color: #f20707;"
-                  ></i> */}
+                    style={{color: '#f20707'}}
+                  ></i>
                 </a>
               </div>
             </div>
@@ -84,81 +84,81 @@ export default function Footer() {
               <div className="columns-1">
                 <h6>TECHNOLOGY</h6>
                 <a href="#">
-                  {/* <i
+                  <i
                     className="fa-3x fa-brands fa-react"
-                    style="color: #0f91f5;"
-                  ></i> */}
+                    style={{color: '#0f91f5'}}
+                  ></i>
                 </a>
                 <a href="#">
-                  {/* <i
+                  <i
                     className="fa-3x fa-brands fa-laravel"
-                    style="color: #f31212;"
-                  ></i> */}
+                    style={{color: '#f31212'}}
+                  ></i>
                 </a>
                 <a href="#">
-                  {/* <i
+                  <i
                     className="fa-3x fa-brands fa-php"
-                    style="color: #1262ed;"
-                  ></i> */}
+                    style={{color: '#1262ed'}}
+                  ></i>
                 </a>
                 <a href="#">
-                  {/* <i
+                  <i
                     className="fa-3x fa-brands fa-node"
-                    style="color: #48e54b;"
-                  ></i> */}
+                    style={{color: '#48e54b'}}
+                  ></i>
                 </a>
                 <br />
                 <a href="#">
-                  {/* <i
+                  <i
                     className="fa-3x fa-brands fa-data-base"
-                    style="color: #1262ed;"
-                  ></i> */}
+                    style={{color: '#1262ed'}}
+                  ></i>
                 </a>
                 <a href="#">
-                  {/* <i
+                  <i
                     className="fa-3x fa-brands fa-css3-alt"
-                    style="color: #1f62ff;"
-                  ></i> */}
+                    style={{color: '#1f62ff'}}
+                  ></i>
                 </a>
                 <a href="#">
-                  {/* <i
+                  <i
                     className="fa-3x fa-brands fa-docker"
-                    style="color: #3b71ce;"
-                  ></i> */}
+                    style={{color: '#3b71ce'}}
+                  ></i>
                 </a>
                 <a href="#">
-                  {/* <i
+                  <i
                     className="fa-3x fa-brands fa-git"
-                    style="color: #ce453b;"
-                  ></i> */}
+                    style={{color: '#ce453b'}}
+                  ></i>
                 </a>
                 <a href="#">
-                  {/* <i
+                  <i
                     className="fa-3x fa-brands fa-square-gitlab"
-                    style="color: #eb5e00;"
-                  ></i> */}
+                    style={{color: '#eb5e00'}}
+                  ></i>
                 </a>
                 <br />
                 <a href="#">
-                  {/* <i
+                  <i
                     className="fa-3x fa-brands fa-gitkraken"
-                    style="color: #3b6fc9;"
-                  ></i> */}
+                    style={{ color: '#3b6fc9' }}
+                  ></i>
                 </a>
                 <a href="#">
-                  {/* <i
+                  <i
                     className="fa-3x fa-brands fa-html5"
-                    style="color: #dd3636;"
-                  ></i> */}
+                    style={{color: '#dd3636'}}
+                  ></i>
                 </a>
                 <a href="#">
-                  {/* <i className="fa-3x fa-solid fa-database"></i> */}
+                  <i className="fa-3x fa-solid fa-database"></i>
                 </a>
                 <a href="#">
-                  {/* <i
+                  <i
                     className="fa-3x fa-brands fa-bootstrap"
-                    style="color: #0561ff;"
-                  ></i> */}
+                    style={{color: '#0561ff'}}
+                  ></i>
                 </a>
               </div>
 
@@ -231,20 +231,20 @@ export default function Footer() {
                 <h6>ADDRESS</h6>
 
                 <p>
-                  {/* <i
+                  <i
                     className="fa-regular fa-envelope"
-                    style="color: #74C0FC;"
-                  ></i>{' '} */}
+                    style={{color: '#74C0FC'}}
+                  ></i>{' '}
                   itlogiko@gmail.com
                 </p>
                 <p>
-                  {/* <i className="fa-solid fa-phone"></i> 01312-383745 */}
+                  <i className="fa-solid fa-phone"></i> 01312-383745
                 </p>
                 <p>
-                  {/* <i
+                  <i
                     className="fa-solid fa-location-dot"
-                    style="color:#3039e3;"
-                  ></i> */}
+                    style={{color: '#3039e3'}}
+                  ></i>
                   Level-10, Shakh Hasina Software Technology Park, Nazir
                   Sonkorpur Road, Jashore-7400, bangladesh.
                 </p>
