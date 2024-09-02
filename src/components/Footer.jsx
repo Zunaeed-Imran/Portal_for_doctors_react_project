@@ -255,7 +255,7 @@ export default function Footer() {
 
         <div
           className="text-center text-white p-3"
-          style="background-color:#2e3238;"
+          style={{backgroundcolor: '#2e3238'}}
         >
           Copyright@ITLogiko2024.
         </div>
