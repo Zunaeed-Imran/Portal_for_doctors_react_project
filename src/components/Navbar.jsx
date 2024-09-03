@@ -8,7 +8,7 @@ import { IconContext } from 'react-icons';
 export default function Navbar() {
   return (
     <div className="flex justify-around fixed w-full bg-[#9f95c9] p-3 px-96">
-      <IconContext.Provider value={{ size: '5rem', color: '#47352e' }}>
+      <IconContext.Provider value={{ size: '1.5rem', color: '#47352e' }}>
         <h2 className="px-6">
           <FaHome /> <a href="#">Home</a>
         </h2>
