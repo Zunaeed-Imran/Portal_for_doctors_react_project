@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <PageTitle title="test2" />   
+      <PageTitle title="Home" />   
       <Navbar />
       <Home />
       <Footer />

@@ -17,36 +17,28 @@ export default function Footer() {
             <div className="">
               <a href="#">
                 <i style={{ color: '#3039e3' }}>
-                  <FaGlobe /> ITLogiko
+                  <FaGlobe /> Anesthesiologists
                 </i>
               </a>
-              <p>Grow Your Online Business And Improve Customer Retention</p>
+              <p>
+                An anesthesiologist is a medical doctor who specializes in
+                administering anesthesia, the medical treatment that keeps you
+                from feeling pain during procedures or surgery.
+                Anesthesiologists take care of you before, during and after your
+                surgery.
+              </p>
             </div>
 
             {/* <!-- it is icon section --> */}
             <div className="">
               <div className="">
-                <a href="#">
-                  Linkedin
-                </a>
-                <a href="#">
-                  Twitter
-                </a>
-                <a href="#">
-                  GitHub
-                </a>
-                <a href="#">
-                  Google
-                </a>
-                <a href="#">
-                  instagram
-                </a>
-                <a href="#">
-                  Facebook
-                </a>
-                <a href="#">
-                  Youtube
-                </a>
+                <a href="#">Linkedin</a>
+                <a href="#">Twitter</a>
+                <a href="#">GitHub</a>
+                <a href="#">Google</a>
+                <a href="#">instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Youtube</a>
               </div>
             </div>
           </div>
@@ -58,47 +50,21 @@ export default function Footer() {
             <div className="col-span-1">
               <div className="columns-1">
                 <h6>TECHNOLOGY</h6>
-                <a href="#">
-                  React
-                </a>
-                <a href="#">
-                  Laravel
-                </a>
-                <a href="#">
-                  PHP
-                </a>
-                <a href="#">
-                  node
-                </a>
+                <a href="#">React</a>
+                <a href="#">Laravel</a>
+                <a href="#">PHP</a>
+                <a href="#">node</a>
                 <br />
-                <a href="#">
-                  database
-                </a>
-                <a href="#">
-                  CSS3
-                </a>
-                <a href="#">
-                  Docker
-                </a>
-                <a href="#">
-                  git
-                </a>
-                <a href="#">
-                  gitlab
-                </a>
+                <a href="#">database</a>
+                <a href="#">CSS3</a>
+                <a href="#">Docker</a>
+                <a href="#">git</a>
+                <a href="#">gitlab</a>
                 <br />
-                <a href="#">
-                  gitcracken
-                </a>
-                <a href="#">
-                  html5
-                </a>
-                <a href="#">
-                  rdbms
-                </a>
-                <a href="#">
-                  mongodb
-                </a>
+                <a href="#">gitcracken</a>
+                <a href="#">html5</a>
+                <a href="#">rdbms</a>
+                <a href="#">mongodb</a>
               </div>
 
               <div className="col-span-1">
