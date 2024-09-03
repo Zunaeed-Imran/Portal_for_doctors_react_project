@@ -1,5 +1,8 @@
 import { FaGlobe } from 'react-icons/fa';
 
+
+
+
 export default function Footer() {
   return (
     <div>
@@ -143,10 +146,7 @@ export default function Footer() {
                   <i className="fa-3x fa-solid fa-database"></i>
                 </a>
                 <a href="#">
-                  <i
-                    className="fa-3x fa-brands fa-bootstrap"
-                    style={{ color: '#0561ff' }}
-                  ></i>
+ 
                 </a>
               </div>
 
@@ -189,20 +189,13 @@ export default function Footer() {
                 <h6>ADDRESS</h6>
 
                 <p>
-                  <i
-                    className="fa-regular fa-envelope"
-                    style={{ color: '#74C0FC' }}
-                  ></i>{' '}
                   itlogiko@gmail.com
                 </p>
                 <p>
-                  <i className="fa-solid fa-phone"></i> 01312-383745
+                   01312-383745
                 </p>
                 <p>
-                  <i
-                    className="fa-solid fa-location-dot"
-                    style={{ color: '#3039e3' }}
-                  ></i>
+ 
                   Level-10, Shakh Hasina Software Technology Park, Nazir
                   Sonkorpur Road, Jashore-7400, bangladesh.
                 </p>
@@ -211,12 +204,10 @@ export default function Footer() {
           </div>
         </section>
 
-        <div
-          className="text-center text-white p-3"
-          style={{ backgroundcolor: '#2e3238' }}
-        >
+        <div className='container'>
           Copyright@ITLogiko2024.
         </div>
+
       </footer>
     </div>
   );
