@@ -7,19 +7,23 @@ import { IconContext } from 'react-icons';
 
 export default function Navbar() {
   return (
-    <div className="flex bg-[#9f95c9]	">
+    <div className="flex bg-[#9f95c9] p-3">
       <IconContext.Provider value={{ size: '5rem', color: '#47352e' }}>
         <h2 className="px-6">
-          <FaHome /> Home
+          <FaHome /> <a href="#">Home</a>
         </h2>
+
         <h2 className="px-6">
-          <FaQuestion /> Know why
+          <FaQuestion />
+          <a href="#">Know why</a>
         </h2>
+
         <h2 className="px-6">
-          <TbLogin2 /> Login
+          <TbLogin2 /> <a href="#">Login</a>
         </h2>
+
         <h2 className="px-6">
-          <FcAlarmClock /> Appoint patient
+          <FcAlarmClock /> <a href="#">Appoint patient</a>
         </h2>
       </IconContext.Provider>
     </div>
