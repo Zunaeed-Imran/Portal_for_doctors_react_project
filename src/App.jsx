@@ -1,5 +1,5 @@
 
-
+import { Helmet } from 'react-helmet';
 import './App.css'
 import Footer from './components/Footer';
 
@@ -10,9 +10,12 @@ function App() {
 
   return (
     <>
+      <Helmet>
+        <title>Home Page</title>
+      </Helmet>
+      
       <Navbar />
       <Home />
-
       <Footer />
     </>
   );

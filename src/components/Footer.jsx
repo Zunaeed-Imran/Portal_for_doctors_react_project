@@ -16,7 +16,9 @@ export default function Footer() {
           <div className="container flex justify-center px-5">
             <div>
               <a href="#">
-                <i style={{ color: '#3039e3' }}><FaGlobe /> ITLogiko</i>
+                <i style={{ color: '#3039e3' }}>
+                  <FaGlobe /> ITLogiko
+                </i>
               </a>
               <p>Grow Your Online Business And Improve Customer Retention</p>
             </div>
@@ -68,10 +70,11 @@ export default function Footer() {
           </div>
         </section>
 
+        
         {/* <!-- it is company details section  --> */}
-        <section className="py-4">
-          <div className="container mx-auto">
-            <div className="flex-row p-2">
+        <section>
+          <div className="grid grid-cols-3 gap-4">
+            <div className="col-span-1">
               <div className="columns-1">
                 <h6>TECHNOLOGY</h6>
                 <a href="#">
@@ -145,12 +148,11 @@ export default function Footer() {
                 <a href="#">
                   <i className="fa-3x fa-solid fa-database"></i>
                 </a>
-                <a href="#">
- 
-                </a>
+                <a href="#"></a>
               </div>
 
-              <div className="col-4">
+              
+              <div className="col-span-1">
                 <h6>SERVICE</h6>
                 <a className="text-decoration-none text-black" href="#">
                   <p>Team Augmentation Services</p>
@@ -185,29 +187,28 @@ export default function Footer() {
               </div>
 
               {/* <!-- like i use in the contact in the same line we can add logo with text.  --> */}
-              <div className="col-4">
+              <div className="col-span-3">
                 <h6>ADDRESS</h6>
 
+                <p>itlogiko@gmail.com</p>
+                <p>01312-383745</p>
                 <p>
-                  itlogiko@gmail.com
-                </p>
-                <p>
-                   01312-383745
-                </p>
-                <p>
- 
                   Level-10, Shakh Hasina Software Technology Park, Nazir
                   Sonkorpur Road, Jashore-7400, bangladesh.
                 </p>
+                {/* <hr /> */}
               </div>
             </div>
           </div>
         </section>
 
-        <div className='container'>
-          Copyright@ITLogiko2024.
+        {/* bottom footer */}
+        <div className="bg-[#aac0e3]">
+          <hr />
+          <div className="flex justify-center p-3">
+            <p>Copyright@Anesthesiologists2024.</p>
+          </div>
         </div>
-
       </footer>
     </div>
   );
