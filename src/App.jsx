@@ -1,19 +1,16 @@
 
-import { Helmet } from 'react-helmet';
 import './App.css'
 import Footer from './components/Footer';
 
 import Home from './components/Home';
 import Navbar from './components/Navbar';
+import PageTitle from './components/PageTitle';
 
 function App() {
 
   return (
     <>
-      <Helmet>
-        <title>Home Page</title>
-      </Helmet>
-      
+      <PageTitle title="test2" />   
       <Navbar />
       <Home />
       <Footer />
