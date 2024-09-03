@@ -8,13 +8,13 @@ export default function Footer() {
     <div>
       {/* footer section. */}
 
-      <footer className="pt-5">
+      <footer>
         {/* <!-- it is social icon section  --> */}
-        <section className="border-2	">
+        <section className="border-2">
           {/* <!-- it is just text and company logo section  --> */}
 
-          <div className="container flex justify-center px-5">
-            <div>
+          <div className="">
+            <div className="">
               <a href="#">
                 <i style={{ color: '#3039e3' }}>
                   <FaGlobe /> ITLogiko
@@ -25,52 +25,33 @@ export default function Footer() {
 
             {/* <!-- it is icon section --> */}
             <div className="">
-              <div className="col-auto flex-row">
+              <div className="">
                 <a href="#">
-                  <i
-                    className="fa-2x fa-brands fa-linkedin"
-                    style={{ color: '#0079fa' }}
-                  ></i>
+                  Linkedin
                 </a>
                 <a href="#">
-                  <i
-                    className="fa-2x fa-brands fa-square-twitter"
-                    style={{ color: '#3378e8' }}
-                  ></i>
+                  Twitter
                 </a>
                 <a href="#">
-                  <i
-                    className="fa-2x fa-brands fa-github"
-                    style={{ color: '#212326' }}
-                  ></i>
+                  GitHub
                 </a>
                 <a href="#">
-                  <i
-                    className="fa-2x fa-brands fa-google-plus"
-                    style={{ color: '#33e84e' }}
-                  ></i>
+                  Google
                 </a>
                 <a href="#">
-                  <i
-                    className="fa-2x fa-brands fa-square-instagram"
-                    style={{ color: '#e833df' }}
-                  ></i>
+                  instagram
                 </a>
                 <a href="#">
-                  <i className="fa-2x fa-brands fa-facebook"></i>
+                  Facebook
                 </a>
                 <a href="#">
-                  <i
-                    className="fa-2x fa-brands fa-youtube"
-                    style={{ color: '#f20707' }}
-                  ></i>
+                  Youtube
                 </a>
               </div>
             </div>
           </div>
         </section>
 
-        
         {/* <!-- it is company details section  --> */}
         <section>
           <div className="grid grid-cols-3 gap-4">
@@ -78,80 +59,48 @@ export default function Footer() {
               <div className="columns-1">
                 <h6>TECHNOLOGY</h6>
                 <a href="#">
-                  <i
-                    className="fa-3x fa-brands fa-react"
-                    style={{ color: '#0f91f5' }}
-                  ></i>
+                  React
                 </a>
                 <a href="#">
-                  <i
-                    className="fa-3x fa-brands fa-laravel"
-                    style={{ color: '#f31212' }}
-                  ></i>
+                  Laravel
                 </a>
                 <a href="#">
-                  <i
-                    className="fa-3x fa-brands fa-php"
-                    style={{ color: '#1262ed' }}
-                  ></i>
+                  PHP
                 </a>
                 <a href="#">
-                  <i
-                    className="fa-3x fa-brands fa-node"
-                    style={{ color: '#48e54b' }}
-                  ></i>
+                  node
                 </a>
                 <br />
                 <a href="#">
-                  <i
-                    className="fa-3x fa-brands fa-data-base"
-                    style={{ color: '#1262ed' }}
-                  ></i>
+                  database
                 </a>
                 <a href="#">
-                  <i
-                    className="fa-3x fa-brands fa-css3-alt"
-                    style={{ color: '#1f62ff' }}
-                  ></i>
+                  CSS3
                 </a>
                 <a href="#">
-                  <i
-                    className="fa-3x fa-brands fa-docker"
-                    style={{ color: '#3b71ce' }}
-                  ></i>
+                  Docker
                 </a>
                 <a href="#">
-                  <i
-                    className="fa-3x fa-brands fa-git"
-                    style={{ color: '#ce453b' }}
-                  ></i>
+                  git
                 </a>
                 <a href="#">
-                  <i
-                    className="fa-3x fa-brands fa-square-gitlab"
-                    style={{ color: '#eb5e00' }}
-                  ></i>
+                  gitlab
                 </a>
                 <br />
                 <a href="#">
-                  <i
-                    className="fa-3x fa-brands fa-gitkraken"
-                    style={{ color: '#3b6fc9' }}
-                  ></i>
+                  gitcracken
                 </a>
                 <a href="#">
-                  <i
-                    className="fa-3x fa-brands fa-html5"
-                    style={{ color: '#dd3636' }}
-                  ></i>
+                  html5
                 </a>
                 <a href="#">
-                  <i className="fa-3x fa-solid fa-database"></i>
+                  rdbms
                 </a>
-                <a href="#"></a>
+                <a href="#">
+                  mongodb
+                </a>
               </div>
 
-              
               <div className="col-span-1">
                 <h6>SERVICE</h6>
                 <a className="text-decoration-none text-black" href="#">
