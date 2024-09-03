@@ -7,7 +7,7 @@ import { IconContext } from 'react-icons';
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between bg-[#9f95c9] p-3 px-96">
+    <div className="flex justify-around bg-[#9f95c9] p-3 px-96">
       <IconContext.Provider value={{ size: '5rem', color: '#47352e' }}>
         <h2 className="px-6">
           <FaHome /> <a href="#">Home</a>
