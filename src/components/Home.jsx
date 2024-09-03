@@ -5,7 +5,7 @@
 function Home() {
 
   return (
-    <div className="bg-[url('assets/marcelo-leal-6pcGTJDuf6M-unsplash.jpg')] w-full p-1">
+    <div className="bg-[url('assets/marcelo-leal-6pcGTJDuf6M-unsplash.jpg')] w-full p-1 pt-48">
       <h1 className="text-3xl font-bold underline">
         Welcome To Anesthesiologists Specilist
       </h1>
