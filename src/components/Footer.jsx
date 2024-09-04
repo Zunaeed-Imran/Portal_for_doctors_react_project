@@ -42,7 +42,7 @@ export default function Footer() {
         </div>
 
         <div className="min-h-[100px]">
-          <h6 className="text-xl font-semibold">About Cleveland Clinic</h6>
+          <h6 className="text-xl font-semibold">About AnestheSure</h6>
           <a className="text-decoration-none text-black" href="#">
             <p>About Us</p>
           </a>
@@ -95,7 +95,7 @@ export default function Footer() {
       <div className="bg-[#aac0e3]">
         <hr />
         <div className="flex justify-center p-3">
-          <p>Copyright@Anesthesiologists2024.</p>
+          <p>Copyright@AnestheSure2024.</p>
         </div>
       </div>
     </>
