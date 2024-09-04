@@ -8,22 +8,37 @@ export default function Footer() {
     <>
       <div className="grid grid-cols-3	">
         <div className="min-h-[100px]">
-          <h6>TECHNOLOGY</h6>
-          <a href="#">React</a>
-          <a href="#">Laravel</a>
-          <a href="#">PHP</a>
-          <a href="#">node</a>
-          <br />
-          <a href="#">database</a>
-          <a href="#">CSS3</a>
-          <a href="#">Docker</a>
-          <a href="#">git</a>
-          <a href="#">gitlab</a>
-          <br />
-          <a href="#">gitcracken</a>
-          <a href="#">html5</a>
-          <a href="#">rdbms</a>
-          <a href="#">mongodb</a>
+          <h6 className="text-xl font-semibold">Actions</h6>
+          <a className="text-decoration-none text-black" href="#">
+            <p>Appointment & Access</p>
+          </a>
+          <a className="text-decoration-none text-black" href="#">
+            <p>Accepted Insurance</p>
+          </a>
+          <a className="text-decoration-none text-black" href="#">
+            <p>Events Calendar</p>
+          </a>
+          <a className="text-decoration-none text-black" href="#">
+            <p>Finalcial Assistance</p>
+          </a>
+          <a className="text-decoration-none text-black" href="#">
+            <p>Give to Cleveland Clinic</p>
+          </a>
+          <a className="text-decoration-none text-black" href="#">
+            <p>Pay Your Bill Online</p>
+          </a>
+          <a className="text-decoration-none text-black" href="#">
+            <p>Refar a Patient</p>
+          </a>
+          <a className="text-decoration-none text-black" href="#">
+            <p>Phone Directory</p>
+          </a>
+          <a className="text-decoration-none text-black" href="#">
+            <p>Virtual Second Opinions</p>
+          </a>
+          <a className="text-decoration-none text-black" href="#">
+            <p>Virtual Visits</p>
+          </a>
         </div>
 
         <div className="min-h-[100px]">
