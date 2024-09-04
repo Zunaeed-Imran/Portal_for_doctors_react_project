@@ -1,6 +1,13 @@
 // this is footer section.
 import { FaUserDoctor } from 'react-icons/fa6';
-
+import { FaLinkedin } from 'react-icons/fa';
+import { FaSquareXTwitter } from 'react-icons/fa6';
+import { ImGithub } from 'react-icons/im';
+import { FaGooglePlay } from 'react-icons/fa';
+import { FaInstagramSquare } from 'react-icons/fa';
+import { FaFacebookSquare } from 'react-icons/fa';
+import { FaYoutube } from 'react-icons/fa';
+import { IconContext } from 'react-icons';
 
 
 
@@ -8,25 +15,42 @@ export default function Footer() {
   return (
     <>
       <div className="grid grid-cols-2">
-        <div className="min-h-[100px]">
-          <a href="#" className='flex items-center gap-1'>
-              <FaUserDoctor size='2rem' /> AnestheSure
+        <div className="min-h-[100px] pl-52 p-6">
+          <a href="#" className="flex items-center gap-1">
+            <FaUserDoctor size="2.5rem" color="#c74332" /> AnestheSure
           </a>
           <p>
             An anesthesiologist is a medical doctor who specializes in <br />
-            administering anesthesia, the medical treatment that keeps you from <br />
-            feeling pain during procedures or surgery. Anesthesiologists take <br />
-            care of you before, during and after your surgery.
+            administering anesthesia, the medical treatment that keeps <br />
+            you from feeling pain during procedures or surgery. <br />
+            Anesthesiologists take care of you before, during <br />
+            and after your surgery.
           </p>
         </div>
-        <div className="min-h-[100px]">
-          <a href="#">Linkedin</a>
-          <a href="#">Twitter</a>
-          <a href="#">GitHub</a>
-          <a href="#">Google</a>
-          <a href="#">instagram</a>
-          <a href="#">Facebook</a>
-          <a href="#">Youtube</a>
+        <div className="min-h-[100px] flex items-center gap-1">
+          <IconContext.Provider value={{ size: '2.5rem' }}>
+            <a href="#">
+              <FaLinkedin color="#2f88cc" />
+            </a>
+            <a href="#">
+              <FaSquareXTwitter />
+            </a>
+            <a href="#">
+              <ImGithub />
+            </a>
+            <a href="#">
+              <FaGooglePlay color="#33d448" />
+            </a>
+            <a href="#">
+              <FaInstagramSquare color="#d802eb" />
+            </a>
+            <a href="#">
+              <FaFacebookSquare color="#3358b5" />
+            </a>
+            <a href="#">
+              <FaYoutube color="red" />
+            </a>
+          </IconContext.Provider>
         </div>
       </div>
 
