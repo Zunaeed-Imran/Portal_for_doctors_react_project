@@ -14,7 +14,7 @@ import { IconContext } from 'react-icons';
 export default function Footer() {
   return (
     <>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 bg-slate-100">
         <div className="min-h-[100px] pl-52 p-6">
           <a href="#" className="flex items-center gap-1">
             <FaUserDoctor size="2.5rem" color="#c74332" /> AnestheSure
