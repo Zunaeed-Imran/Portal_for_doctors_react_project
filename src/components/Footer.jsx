@@ -1,4 +1,5 @@
 // this is footer section.
+import { FaUserDoctor } from 'react-icons/fa6';
 
 
 
@@ -6,6 +7,29 @@
 export default function Footer() {
   return (
     <>
+      <div className="grid grid-cols-2">
+        <div className="min-h-[100px]">
+          <a href="#" className='flex items-center gap-1'>
+              <FaUserDoctor size='2rem' /> AnestheSure
+          </a>
+          <p>
+            An anesthesiologist is a medical doctor who specializes in <br />
+            administering anesthesia, the medical treatment that keeps you from <br />
+            feeling pain during procedures or surgery. Anesthesiologists take <br />
+            care of you before, during and after your surgery.
+          </p>
+        </div>
+        <div className="min-h-[100px]">
+          <a href="#">Linkedin</a>
+          <a href="#">Twitter</a>
+          <a href="#">GitHub</a>
+          <a href="#">Google</a>
+          <a href="#">instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">Youtube</a>
+        </div>
+      </div>
+
       <div className="grid grid-cols-3 p-9 px-36">
         <div className="min-h-[100px]">
           <h6 className="text-xl font-semibold">Actions</h6>
