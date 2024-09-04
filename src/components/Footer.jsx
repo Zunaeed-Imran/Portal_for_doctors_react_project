@@ -10,7 +10,7 @@ import { FaYoutube } from 'react-icons/fa';
 import { IconContext } from 'react-icons';
 import { MdAttachEmail } from 'react-icons/md';
 import { FaPhone } from 'react-icons/fa';
-import { TbHospitalCircleFilled } from 'react-icons/tb';
+import { GiLifeSupport } from 'react-icons/gi';
 
 
 
@@ -137,8 +137,7 @@ export default function Footer() {
             <FaPhone color="#36de2a" /> 01777-888899
           </p>
           <p className="flex items-center gap-2">
-            <TbHospitalCircleFilled color="#ff0019" /> 5695+5R6, Nowapara Rd,
-            Jashore.
+            <GiLifeSupport color="#ff0019" /> 5695+5R6, Nowapara Rd, Jashore.
           </p>
           <p>
             <iframe
