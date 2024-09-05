@@ -20,7 +20,7 @@ export default function Footer() {
     <>
       <div className="grid grid-cols-2 bg-slate-100">
         <div className="min-h-[100px] pl-52 p-6">
-          <a href="#" className="flex items-center gap-1">
+          <a href="#" className="flex items-center gap-1 font-semibold">
             <FaUserDoctor size="2.5rem" color="#c74332" /> AnestheSure
           </a>
           <p>
