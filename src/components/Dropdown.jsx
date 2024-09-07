@@ -8,8 +8,8 @@ function Dropdown() {
   return (
     <div>
       <div className="dropdown">
-        <div tabIndex={0} role="button" className="btn m-1">
-          Click
+        <div tabIndex={0} role="button" className="btn btn-primary">
+          See list
         </div>
         <ul
           tabIndex={0}
