@@ -2,6 +2,7 @@ import { FaHome, FaQuestion } from 'react-icons/fa';
 import { FcAlarmClock } from 'react-icons/fc';
 import { TbLogin2 } from 'react-icons/tb';
 import { IconContext } from 'react-icons';
+import Dropdown from './Dropdown';
 
 
 
@@ -25,6 +26,7 @@ export default function Navbar() {
         <h2 className="px-6 flex">
           <FcAlarmClock /> <a href="#">Appoint patient</a>
         </h2>
+        <Dropdown />
       </IconContext.Provider>
     </div>
   );
