@@ -13,9 +13,7 @@ function Hero() {
             className="max-w-sm rounded-lg shadow-2xl"
           />
           <div>
-            <h1 className="text-5xl font-bold">
-              Welcome To Anesthesiologists Specilist
-            </h1>
+            <h1 className="text-5xl font-bold">Welcome To AnestheSure</h1>
             <p className="py-6">
               Why people go to Anesthesiologists specilist?
             </p>
@@ -37,6 +35,9 @@ function Hero() {
               in providing pain relief during childbirth. They may administer
               epidurals or other forms of anesthesia to make the process more
               comfortable for the mothe
+            </p>
+            <p className="py-3">
+              <b>And many more</b>
             </p>
           </div>
         </div>
