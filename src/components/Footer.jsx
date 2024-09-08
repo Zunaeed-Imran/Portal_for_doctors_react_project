@@ -150,7 +150,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="bg-[#aac0e3]">
+      <div className="bg-gray-900 text-white">
         <hr />
         <div className="flex justify-center p-3">
           <p>Copyright@AnestheSure2024.</p>
