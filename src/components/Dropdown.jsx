@@ -9,7 +9,7 @@ function Dropdown() {
     <div>
       <div className="dropdown">
         <div tabIndex={0} role="button" className="btn bg-[#7c9dcf]">
-          See list
+          See_list
         </div>
         <ul
           tabIndex={0}
@@ -22,10 +22,10 @@ function Dropdown() {
             <a>Item 2</a>
           </li>
           <li>
-            <a>Item 2</a>
+            <a>Item 3</a>
           </li>
           <li>
-            <a>Item 2</a>
+            <a>Item 4</a>
           </li>
         </ul>
       </div>

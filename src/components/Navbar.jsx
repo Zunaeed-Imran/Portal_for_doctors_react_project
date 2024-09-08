@@ -9,8 +9,8 @@ import Dropdown from './Dropdown';
 export default function Navbar() {
   return (
     <div
-      className="flex justify-around fixed 
-    w-full bg-[#7c89a1]	 p-3 px-96 gap-3"
+      className="flex justify-center fixed 
+    w-full bg-[#7c89a1]	 p-3 px-96 gap-3 z-30"
     >
       <IconContext.Provider value={{ size: '1.5rem', color: '#f2f7f5' }}>
         <h2 className="px-6 flex btn bg-[#7c9dcf]">
