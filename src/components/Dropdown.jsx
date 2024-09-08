@@ -8,7 +8,7 @@ function Dropdown() {
   return (
     <div>
       <div className="dropdown">
-        <div tabIndex={0} role="button" className="btn btn-primary">
+        <div tabIndex={0} role="button" className="btn bg-[#7c9dcf]">
           See list
         </div>
         <ul
