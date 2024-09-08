@@ -1,8 +1,7 @@
 
 import './App.css'
 import Footer from './components/Footer';
-
-import Home from './components/Home';
+import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import PageTitle from './components/PageTitle';
 
@@ -12,7 +11,7 @@ function App() {
     <>
       <PageTitle title="Home" />   
       <Navbar />
-      <Home />
+      <Hero />
       <Footer />
     </>
   );
