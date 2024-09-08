@@ -16,16 +16,34 @@ function Dropdown() {
           className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
         >
           <li>
-            <a>Item 1</a>
+            <a href="#">Appointment & Access</a>
           </li>
           <li>
-            <a>Item 2</a>
+            <a href="#">Accepted Insurance</a>
           </li>
           <li>
-            <a>Item 3</a>
+            <a href="#">Events Calendar</a>
           </li>
           <li>
-            <a>Item 4</a>
+            <a href="#">Finalcial Assistance</a>
+          </li>
+          <li>
+            <a href="#">Give to Cleveland Clinic</a>
+          </li>
+          <li>
+            <a href="#">Pay Your Bill Online</a>
+          </li>
+          <li>
+            <a href="#">Refar a Patient</a>
+          </li>
+          <li>
+            <a href="#">Phone Directory</a>
+          </li>
+          <li>
+            <a href="#">Virtual Second Opinions</a>
+          </li>
+          <li>
+            <a href="#">Virtual Visits</a>
           </li>
         </ul>
       </div>
