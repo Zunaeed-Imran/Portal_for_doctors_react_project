@@ -12,7 +12,7 @@ function Card() {
       <div className="flex">
         <div className="card bg-base-100 w-96 shadow-xl">
           <figure>
-            <FaHeartbeat size="6rem" />
+            <FaHeartbeat size="6rem" color="#f50031" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Health Care</h2>
@@ -41,7 +41,7 @@ function Card() {
         </div>
         <div className="card bg-base-100 w-96 shadow-xl">
           <figure>
-            <IoEye size="6rem" />
+            <IoEye size="6rem" color="#2e5de8" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Eye Specialist</h2>
@@ -58,7 +58,7 @@ function Card() {
       <div className="flex">
         <div className="card bg-base-100 w-96 shadow-xl">
           <figure>
-            <FaBrain size="6rem" />
+            <FaBrain size="6rem" color="	#f3b5b8" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Brain Specialist</h2>
@@ -73,7 +73,7 @@ function Card() {
         </div>
         <div className="card bg-base-100 w-96 shadow-xl">
           <figure>
-            <FaLungs size="6rem" />
+            <FaLungs size="6rem" color="#d42257" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Lung Treatment</h2>
@@ -87,7 +87,7 @@ function Card() {
         </div>
         <div className="card bg-base-100 w-96 shadow-xl">
           <figure>
-            <GiKidneys size="6rem" />
+            <GiKidneys size="6rem" color="#9e0533" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Kidney Transplant</h2>
