@@ -16,7 +16,13 @@ function Dropdown() {
           className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
         >
           <li>
-            <a className="btn btn-secondary">Item 1</a>
+            <a>Item 1</a>
+          </li>
+          <li>
+            <a>Item 2</a>
+          </li>
+          <li>
+            <a>Item 2</a>
           </li>
           <li>
             <a>Item 2</a>

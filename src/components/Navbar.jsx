@@ -8,7 +8,8 @@ import Dropdown from './Dropdown';
 
 export default function Navbar() {
   return (
-    <div className="flex justify-around fixed w-full bg-sky-500	 p-3 px-96">
+    <div className="flex justify-around fixed 
+    w-full bg-sky-500	 p-3 px-96 gap-3">
       <IconContext.Provider value={{ size: '1.5rem', color: '#f2f7f5' }}>
         <h2 className="px-6 flex btn btn-primary">
           <FaHome /> <a href="#">Home</a>
