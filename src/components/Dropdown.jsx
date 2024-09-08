@@ -1,15 +1,14 @@
-
-
-
+import { IoIosArrowDropdown } from 'react-icons/io';
 
 function Dropdown() {
-
-
   return (
     <div>
       <div className="dropdown">
         <div tabIndex={0} role="button" className="btn bg-[#7c9dcf]">
+          <h2 className='flex gap-2 items-center'>
+          <IoIosArrowDropdown />
           See_list
+          </h2>
         </div>
         <ul
           tabIndex={0}
@@ -51,5 +50,4 @@ function Dropdown() {
   );
 }
 
-export default Dropdown
-
+export default Dropdown;
