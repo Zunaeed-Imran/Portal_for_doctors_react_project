@@ -5,7 +5,7 @@ function Review() {
 
   return (
     <div>
-      <Marquee pauseOnHover={true}>
+      <Marquee pauseOnHover={true} gradient={true}>
         <div className="card bg-base-100 w-56 shadow-xl p-3">
           <div className="avatar p-3 justify-center">
             <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
