@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import PageTitle from './components/PageTitle';
+import Review from './components/Review';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Hero />
       <Category />
       <Card />
+      <Review />
       <Footer />
     </>
   );
