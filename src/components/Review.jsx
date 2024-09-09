@@ -1,15 +1,15 @@
-import manA from "../assets/a.png";
+import PropTypes from 'prop-types'; // up to the file
 import Marquee from 'react-fast-marquee';
 
-function Review() {
+function Review({ img }) {
 
   return (
-    <div>
+    <div className='flex'>
       <Marquee pauseOnHover={true} gradient={true}>
         <div className="card bg-base-100 w-56 shadow-xl p-3">
           <div className="avatar p-3 justify-center">
             <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
-              <img src={manA} />
+              <img src={img} />
             </div>
           </div>{' '}
           <br />
@@ -52,4 +52,12 @@ function Review() {
   );
 }
 
-export default Review
+export default Review;
+
+
+Review.propTypes = {
+  // this code will be down to the file
+  props: PropTypes.string,
+  manA: PropTypes.string,
+  manB: PropTypes.string
+};
