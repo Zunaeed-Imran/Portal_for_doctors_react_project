@@ -57,7 +57,5 @@ export default Review;
 
 Review.propTypes = {
   // this code will be down to the file
-  props: PropTypes.string,
-  manA: PropTypes.string,
-  manB: PropTypes.string
+  img: PropTypes.string
 };
