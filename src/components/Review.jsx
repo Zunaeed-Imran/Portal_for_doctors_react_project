@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'; // up to the file
 
-function Review({ img }) {
+function Review({ img, name}) {
 
   return (
     <div className='flex'>
@@ -11,7 +11,7 @@ function Review({ img }) {
             </div>
           </div>{' '}
           <br />
-          <h2 className="card-title justify-center">Morgan Kosai</h2>
+        <h2 className="card-title justify-center">{name}</h2>
           <p className="text-center">
             I had a wonderful visit to AnestheSure for my back. The care I
             received from Doctor younus was exceptional
@@ -54,5 +54,6 @@ export default Review;
 
 Review.propTypes = {
   // this code will be down to the file
-  img: PropTypes.string
+  img: PropTypes.string,
+  name: PropTypes.string
 };

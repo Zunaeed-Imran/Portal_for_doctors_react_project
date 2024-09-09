@@ -17,18 +17,18 @@ function ReviewCard() {
   return (
     <Marquee pauseOnHover={true} gradient={true}>
       <div className="flex justify-center gap-5 items-center">
-        <Review img={manA} />
-        <Review img={manB} />
-        <Review img={manC} />
-        <Review img={manD} />
-        <Review img={manE} />
-        <Review img={manF} />
-        <Review img={manG} />
-        <Review img={manH} />
-        <Review img={manI} />
-        <Review img={manJ} />
-        <Review img={manK} />
-        <Review img={manL} />
+        <Review img={manA} name={'Morgan Kosai'}/>
+        <Review img={manB} name={'Caleb'}/>
+        <Review img={manC} name={'Marie'}/>
+        <Review img={manD} name={'Willie'}/>
+        <Review img={manE} name={'Kerry'}/>
+        <Review img={manF} name={'Elvis'}/>
+        <Review img={manG} name={'Joan'}/>
+        <Review img={manH} name={'Bertha'}/>
+        <Review img={manI} name={'Valeria'}/>
+        <Review img={manJ} name={'Windi Huynh'}/>
+        <Review img={manK} name={'Rondy Pop'}/>
+        <Review img={manL} name={'Genn'}/>
       </div>
     </Marquee>
   );
