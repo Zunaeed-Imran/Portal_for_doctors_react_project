@@ -9,12 +9,12 @@ import { GiKidneys } from 'react-icons/gi';
 function Card() {
   return (
     <div>
-      <div className="flex">
-        <div className="card bg-base-100 w-96 shadow-xl">
+      <div className="flex ">
+        <div className="card bg-zinc-400 w-96 shadow-xl rounded-none">
           <figure>
             <FaHeartbeat size="6rem" color="#f50031" />
           </figure>
-          <div className="card-body">
+          <div className="card-body ">
             <h2 className="card-title">Health Care</h2>
             <p>
               Specialist amet consectetur adipisicing elit. Consectetur, nostrum
@@ -24,7 +24,7 @@ function Card() {
             </div>
           </div>
         </div>
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-zinc-400 w-96 shadow-xl rounded-none">
           <figure>
             <LiaTeethOpenSolid size="6rem" />
           </figure>
@@ -39,7 +39,7 @@ function Card() {
             </div>
           </div>
         </div>
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-zinc-400 w-96 shadow-xl rounded-none">
           <figure>
             <IoEye size="6rem" color="#2e5de8" />
           </figure>
@@ -56,7 +56,7 @@ function Card() {
         </div>
       </div>
       <div className="flex">
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-zinc-400 w-96 shadow-xl rounded-none">
           <figure>
             <FaBrain size="6rem" color="	#f3b5b8" />
           </figure>
@@ -71,7 +71,7 @@ function Card() {
             </div>
           </div>
         </div>
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-zinc-400 w-96 shadow-xl rounded-none">
           <figure>
             <FaLungs size="6rem" color="#d42257" />
           </figure>
@@ -85,7 +85,7 @@ function Card() {
             </div>
           </div>
         </div>
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-zinc-400 w-96 shadow-xl rounded-none">
           <figure>
             <GiKidneys size="6rem" color="#9e0533" />
           </figure>
