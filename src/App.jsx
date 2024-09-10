@@ -1,6 +1,6 @@
 
 import './App.css'
-import Card from './components/Card';
+import CardCard from './components/CardCard';
 import Category from './components/Category';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
@@ -16,7 +16,7 @@ function App() {
       <Navbar />
       <Hero />
       <Category />
-      <Card />
+      <CardCard />
       <ReviewCard />
       <Footer />
     </>
