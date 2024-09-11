@@ -43,3 +43,28 @@ i will make a portal for Anesthesiologists doctor.
 
 10. Responsive design.
 - Ensure all components are responsive and accessible on various devices like desktops, tablets, and mobile phones.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### what i need to update in this project.
+- 
