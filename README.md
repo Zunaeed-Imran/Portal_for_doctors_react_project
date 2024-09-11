@@ -67,4 +67,18 @@ i will make a portal for Anesthesiologists doctor.
 
 
 ### what i need to update in this project.
-- 
+- (see_list) hospital list in the dropdown manu.
+- (Emergency button) will show doctor details. 
+- Doctor Profile Pages: Create detailed profiles for each doctor with sections for their qualifications, specialties, and patient reviews.
+- Appointment Scheduling: Implement a scheduling system where patients can book or modify appointments with doctors.
+- Search and Filter Options: Add functionality to search for doctors based on specialties, location, or ratings, and filter results accordingly.
+- Patient Dashboard: Develop a dashboard for patients to view their upcoming appointments, medical history, and review past interactions.
+- Notification System: Integrate a notification system to alert doctors and patients about upcoming appointments, new reviews, or system updates.
+- Interactive Calendar: Build an interactive calendar for doctors to manage their availability and view their schedule.
+- Messaging System: Include a secure messaging system for doctors and patients to communicate directly within the portal.
+- Review Moderation: Implement a review moderation system where administrators can approve or reject reviews before they go live.
+- Rating System: Enhance the review section with a rating system (e.g., star ratings) to provide a quick overview of doctor performance.
+- Responsive Design: Ensure the portal is fully responsive and optimized for various devices, including tablets and smartphones.
+- Accessibility Features: Incorporate accessibility features to ensure the portal is usable by individuals with disabilities, including screen reader support and keyboard navigation.
+- Data Visualization: Add charts or graphs to provide visual insights into appointment statistics, patient feedback, or other relevant data.
+- (no need to show the description of the features just list down the features name)
