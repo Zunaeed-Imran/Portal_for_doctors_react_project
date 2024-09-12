@@ -11,7 +11,7 @@ function Card({img, name, desc}) {
             <h2 className="card-title">{name}</h2>
             <p>{desc}</p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Emergency</button>
+              <button className="btn btn-primary">Show_Doctors</button>
             </div>
           </div>
         </div>
