@@ -96,3 +96,16 @@ i will make a portal for Anesthesiologists doctor.
 - Data Visualization: Add charts or graphs to provide visual insights into appointment statistics, patient feedback, or other relevant data.
 
 - (no need to show the description of the features just list down the features name)
+
+#### sort ofron of those tasks.
+- Doctor Profile Pages
+- Appointment Scheduling
+- Search and Filter Options
+- Patient Dashboard
+- Notification System
+- Interactive Calendar
+- Messaging System
+- Review Moderation
+- Rating System
+- Responsive Design
+- Accessibility Features
