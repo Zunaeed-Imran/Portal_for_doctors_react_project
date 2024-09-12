@@ -1,6 +1,6 @@
 
 import './App.css'
-import CardCard from './components/CardCard';
+import CardCard from './components/pages/CardCard';
 import Category from './components/Category';
 import Footer from './components/layout/Footer';
 import Hero from './components/Hero';

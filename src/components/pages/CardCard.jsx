@@ -1,4 +1,4 @@
-import Card from "./layout/Card"
+import Card from "../layout/Card"
 import { FaHeartbeat } from 'react-icons/fa';
 import { FaLungs } from 'react-icons/fa';
 import { IoEye } from 'react-icons/io5';
