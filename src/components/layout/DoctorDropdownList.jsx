@@ -3,7 +3,7 @@
 function DoctorDropdownList() {
   return (
     <div>
-      <div className="dropdown">
+      <div className="dropdown z-30">
         <div tabIndex={0} role="button" className="btn bg-[#7c9dcf]">
           <h2 className="flex gap-2 items-center">Doctors_list</h2>
         </div>
