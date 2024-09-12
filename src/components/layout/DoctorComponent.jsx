@@ -6,7 +6,7 @@ function DoctorComponent({img, desig, title, desc}) {
     <div>
       <div className="card bg-base-100 w-96 shadow-xl">
         <figure className="px-10 pt-10">
-          {img}
+          <img src={img} alt="" />
         </figure>
         <div className="card-body items-center text-center">
           <h2 className="card-title">{desig}</h2>

@@ -7,6 +7,7 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import PageTitle from './components/PageTitle';
 import ReviewCard from './components/ReviewCard';
+import DoctorProfile from './components/pages/DoctorProfile';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Category />
       <CardCard />
       <ReviewCard />
+      <DoctorProfile />
       <Footer />
     </>
   );
