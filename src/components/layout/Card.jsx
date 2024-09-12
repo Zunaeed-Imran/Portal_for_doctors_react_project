@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'; // up to the file
+import DoctorDropdownList from './DoctorDropdownList';
 
 
 function Card({img, name, desc}) {
@@ -11,9 +12,7 @@ function Card({img, name, desc}) {
             <h2 className="card-title">{name}</h2>
             <p>{desc}</p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">
-                <a href="DoctorList.jsx">Show_Doctors</a>
-              </button>
+                <DoctorDropdownList />
             </div>
           </div>
         </div>
