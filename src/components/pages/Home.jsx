@@ -1,6 +1,6 @@
 
 // bg - [url('assets/marcelo-leal-6pcGTJDuf6M-unsplash.jpg')];
-
+//  did not use home page in this project yet.
 
 function Home() {
 
