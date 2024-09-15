@@ -3,6 +3,7 @@ import { FcAlarmClock } from 'react-icons/fc';
 import { TbLogin2 } from 'react-icons/tb';
 import { IconContext } from 'react-icons';
 import Dropdown from './layout/Dropdown';
+import { Link } from 'react-router-dom';
 
 
 
@@ -14,7 +15,7 @@ export default function Navbar() {
     >
       <IconContext.Provider value={{ size: '1rem', color: '#f2f7f5' }}>
         <h2 className="px-6 flex btn bg-[#7c9dcf]">
-          <FaHome /> <a href="#">Home</a>
+          <FaHome /> <Link to='/'>Home</Link>
         </h2>
 
         <h2 className="px-6 flex btn bg-[#7c9dcf]">
