@@ -14,9 +14,11 @@ function DoctorComponent({img, desig, title, desc}) {
           <h2 className="card-side">{title}</h2>
           <p>{desc}</p>
           <div className="card-actions">
+            <Link to='/appointment'>
             <button className="btn btn-primary">
-              <Link to='/appointment'>Make_Appointment</Link>
+                Make_Appointment
             </button>
+           </Link>
           </div>
         </div>
       </div>

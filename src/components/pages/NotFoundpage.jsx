@@ -35,9 +35,9 @@ function NotFoundpage() {
           />
         </svg>
         <span>You can back to home page form here</span>
-        <button className="btn btn-accent">
-          <Link to="/">Home</Link>
-        </button>
+        <Link to="/">
+          <button className="btn btn-accent">Home</button>
+        </Link>
       </div>
     </div>
   );

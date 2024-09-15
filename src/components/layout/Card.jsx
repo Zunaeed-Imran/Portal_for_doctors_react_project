@@ -12,9 +12,9 @@ function Card({img, name, desc}) {
             <h2 className="card-title">{name}</h2>
             <p>{desc}</p>
             <div className="card-actions justify-end">
-              <button className="btn btn-accent">
-                <Link to="/DoctorP">Doctor List</Link>
-              </button>
+              <Link to="/DoctorP">
+              <button className="btn btn-accent">Doctor List</button>
+             </Link>
             </div>
           </div>
         </div>
