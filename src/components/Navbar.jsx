@@ -14,9 +14,15 @@ export default function Navbar() {
     w-full bg-[#7c89a1]	 p-3 px-96 gap-3 z-50"
     >
       <IconContext.Provider value={{ size: '1rem', color: '#f2f7f5' }}>
-        <h2 className="px-6 flex btn bg-[#7c9dcf]">
-          <FaHome /> <Link to='/'>Home</Link>
-        </h2>
+        <button>
+          <Link
+            to="/"
+            className="flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-[#7c9dcf]"
+          >
+            <FaHome />
+            Home
+          </Link>
+        </button>
 
         <h2 className="px-6 flex btn bg-[#7c9dcf]">
           <FaQuestion />
