@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'; // up to the file
-import DoctorDropdownList from './DoctorDropdownList';
+import { Link } from 'react-router-dom';
 
 
 function Card({img, name, desc}) {
@@ -12,7 +12,9 @@ function Card({img, name, desc}) {
             <h2 className="card-title">{name}</h2>
             <p>{desc}</p>
             <div className="card-actions justify-end">
-                <DoctorDropdownList />
+              <button className="btn btn-ghost">
+                <Link to="/DoctorP">Doctor List</Link>
+              </button>
             </div>
           </div>
         </div>
