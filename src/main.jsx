@@ -5,6 +5,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import NotFoundpage from './components/pages/NotFoundpage.jsx'
 import DoctorProfile from './components/pages/DoctorProfile.jsx'
+import AppointMentScheduling from './components/pages/AppointMentScheduling.jsx'
 
 
 const router = createBrowserRouter([
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: '/DoctorP',
     element: <DoctorProfile />,
+  },
+  {
+    path: '/appointment',
+    element: <AppointMentScheduling />,
   },
 ]);
 

@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'; // up to the file
+import { Link } from 'react-router-dom';
 
 
 function DoctorComponent({img, desig, title, desc}) {
@@ -13,7 +14,9 @@ function DoctorComponent({img, desig, title, desc}) {
           <h2 className="card-side">{title}</h2>
           <p>{desc}</p>
           <div className="card-actions">
-            <button className="btn btn-primary">Make_Appointment</button>
+            <button className="btn btn-primary">
+              <Link to='/appointment'>Make_Appointment</Link>
+            </button>
           </div>
         </div>
       </div>
