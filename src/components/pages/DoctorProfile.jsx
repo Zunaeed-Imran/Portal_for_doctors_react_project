@@ -3,11 +3,17 @@ import doctor1 from '../../assets/avater/1.png';
 import doctor6 from '../../assets/avater/6.png';
 import Footer from "../layout/Footer";
 import Navbar from "../Navbar";
+import Search from "../layout/Search";
 
 function DoctorProfile() {
   return (
     <div>
-      <Navbar />
+      <div>
+       <Navbar />
+      </div>
+      <div className="pt-20">
+       <Search />
+      </div>
       <div className="flex box-content pt-24">
         <DoctorComponent
           img={doctor1}
