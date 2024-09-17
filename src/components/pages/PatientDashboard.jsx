@@ -18,7 +18,7 @@ function PatientDashboard() {
           <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content flex flex-col items-center justify-center">
             {/* Page content here */}
-            
+            <p className="font-bold">There will be patient profile page.</p>
           </div>
           <div className="drawer-side">
             <label
