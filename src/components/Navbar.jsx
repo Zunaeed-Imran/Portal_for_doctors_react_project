@@ -46,11 +46,11 @@ export default function Navbar() {
 
         <button>
           <Link
-            to="/"
+            to="/patientDash"
             className="flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-[#7c9dcf] hover:bg-green-500"
           >
             <FcAlarmClock />
-            Appoint_patient
+            Patient_Dashboard
           </Link>
         </button>
 
