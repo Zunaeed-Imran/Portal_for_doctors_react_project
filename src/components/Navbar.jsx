@@ -1,8 +1,8 @@
 import { FaHome, FaQuestion } from 'react-icons/fa';
-import { FcAlarmClock } from 'react-icons/fc';
 import { TbLogin2 } from 'react-icons/tb';
 import { IconContext } from 'react-icons';
 import { Link } from 'react-router-dom';
+import { FcBadDecision } from 'react-icons/fc';
 import Search from './layout/Search';
 
 
@@ -49,7 +49,7 @@ export default function Navbar() {
             to="/patientDash"
             className="flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-[#7c9dcf] hover:bg-green-500"
           >
-            <FcAlarmClock />
+            <FcBadDecision />
             Patient_Dashboard
           </Link>
         </button>
