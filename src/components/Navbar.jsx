@@ -2,8 +2,8 @@ import { FaHome, FaQuestion } from 'react-icons/fa';
 import { FcAlarmClock } from 'react-icons/fc';
 import { TbLogin2 } from 'react-icons/tb';
 import { IconContext } from 'react-icons';
-import Dropdown from './layout/Dropdown';
 import { Link } from 'react-router-dom';
+import Search from './layout/Search';
 
 
 
@@ -54,7 +54,7 @@ export default function Navbar() {
           </Link>
         </button>
 
-        <Dropdown />
+        <Search />
       </IconContext.Provider>
     </div>
   );
