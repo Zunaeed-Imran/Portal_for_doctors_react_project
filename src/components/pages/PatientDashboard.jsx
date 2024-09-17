@@ -14,33 +14,62 @@ function PatientDashboard() {
         <Navbar />
       </div>
       <div className="pt-20">
-        <div className="bg-gray-300	">
-          <div className="btn btn-ghost text-xl">
-            <FcApproval />
-            Profile
-          </div>{' '}
-          <br />
-          <div className="btn btn-ghost text-xl">
-            <FcCableRelease />
-            Book Appointment
-          </div>{' '}
-          <br />
-          <div className="btn btn-ghost text-xl">
-            <FcBriefcase />
-            Invoice
+        <div className="drawer lg:drawer-open">
+          <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
+          <div className="drawer-content flex flex-col items-center justify-center">
+            {/* Page content here */}
+            <label
+              htmlFor="my-drawer-2"
+              className="btn btn-primary drawer-button lg:hidden"
+            >
+              Open drawer
+            </label>
           </div>
-          <br />
-          <div className="btn btn-ghost text-xl">
-            <FcCustomerSupport />
-            Complain
-          </div><br />
-          <div className="btn btn-ghost text-xl">
-            <FcDecision />
-            Old Appointment
-          </div><br />
-          <div className="btn btn-ghost text-xl">
-            <FcDislike />
-            Report
+          <div className="drawer-side">
+            <label
+              htmlFor="my-drawer-2"
+              aria-label="close sidebar"
+              className="drawer-overlay"
+            ></label>
+            <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
+              {/* Sidebar content here */}
+              <li>
+                <div className="btn-ghost text-xl">
+                  <FcApproval />
+                  Profile
+                </div>
+              </li>
+              <li>
+                <div className="btn-ghost text-xl">
+                  <FcCableRelease />
+                  Book Appointment
+                </div>
+              </li>
+              <li>
+                <div className="btn-ghost text-xl">
+                  <FcBriefcase />
+                  Invoice
+                </div>
+              </li>
+              <li>
+                <div className="btn-ghost text-xl">
+                  <FcCustomerSupport />
+                  Complain
+                </div>
+              </li>
+              <li>
+                <div className="btn-ghost text-xl">
+                  <FcDecision />
+                  Old Appointment
+                </div>
+              </li>
+              <li>
+                <div className="btn-ghost text-xl">
+                  <FcDislike />
+                  Report
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
