@@ -2,7 +2,7 @@ import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
 
 function DoctorCalendar() {
-  const events = [{ title: 'Meeting', start: new Date() }];
+  const events = [{ title: 'Patient_Meeting', start: new Date() }];
 
 
   function renderEventContent(eventInfo) {
@@ -17,7 +17,7 @@ function DoctorCalendar() {
   return (
     <div>
       <div>
-        <h1>Demo App</h1>
+        <h1>Doctor Calender</h1>
         <FullCalendar
           plugins={[dayGridPlugin]}
           initialView="dayGridMonth"
