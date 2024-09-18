@@ -25,7 +25,7 @@ function MessageDoctor() {
           <br />
           <textarea
             className="textarea textarea-bordered"
-            placeholder="Tell us what want us to do better"
+            placeholder="Tell us what you want us to do better"
           ></textarea><br />
           <button className="btn btn-primary">Send</button>
         </form>
