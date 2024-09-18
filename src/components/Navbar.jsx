@@ -28,11 +28,11 @@ export default function Navbar() {
 
         <button>
           <Link
-            to="/"
+            to="/DoctorP"
             className="flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-[#7c9dcf] hover:bg-green-500"
           >
             <FaQuestion />
-            Know_why
+            Doctors
           </Link>
         </button>
 
@@ -60,7 +60,7 @@ export default function Navbar() {
         <div>
           <button className="btn btn-ghost btn-circle">
             <div className="indicator">
-              <NotifyButton/>
+              <NotifyButton />
             </div>
           </button>
         </div>
