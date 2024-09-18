@@ -3,10 +3,9 @@ import { TbLogin2 } from 'react-icons/tb';
 import { IconContext } from 'react-icons';
 import { Link } from 'react-router-dom';
 import { FcBadDecision } from 'react-icons/fc';
-import { MdNotificationAdd } from 'react-icons/md';
-
-
 import Search from './layout/Search';
+import NotifyButton from './layout/NotifyButton';
+
 
 
 
@@ -61,7 +60,7 @@ export default function Navbar() {
         <div>
           <button className="btn btn-ghost btn-circle">
             <div className="indicator">
-              <MdNotificationAdd size={'1.5rem'} />
+              <NotifyButton/>
             </div>
           </button>
         </div>
