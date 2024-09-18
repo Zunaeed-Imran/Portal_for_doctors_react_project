@@ -15,7 +15,7 @@ function DoctorCalendar() {
   }
 
   return (
-    <div>
+    <div className='flex'>
       <div className="max-h-fit max-w-fit pb-1 bg-lime-200">
         <h1>Doctor Calender</h1>
         <FullCalendar

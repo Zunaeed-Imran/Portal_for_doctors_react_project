@@ -7,7 +7,6 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import PageTitle from './components/PageTitle';
 import ReviewCard from './components/ReviewCard';
-import DoctorCalendar from './components/layout/DoctorCalendar';
 function App() {
 
   return (
@@ -18,7 +17,6 @@ function App() {
       <Category />
       <CardCard />
       <ReviewCard />
-      <DoctorCalendar/>
       <Footer />
     </>
   );
