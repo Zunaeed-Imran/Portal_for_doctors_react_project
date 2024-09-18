@@ -3,6 +3,7 @@
 function MessageDoctor() {
   return (
     <div>
+      <p className="font-bold">You can message a Doctor</p>
       <div className="p-2 m-5">
         <form action="">
           <input
