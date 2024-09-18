@@ -4,6 +4,7 @@ import doctor6 from '../../assets/avater/6.png';
 import Footer from "../layout/Footer";
 import Navbar from "../Navbar";
 import Search from "../layout/Search";
+import DoctorCalendar from "../layout/DoctorCalendar";
 
 function DoctorProfile() {
   return (
@@ -31,6 +32,9 @@ function DoctorProfile() {
             'Professional Background: Dr. Jane Doe is a board-certified cardiologist with over 15 years of experience in diagnosing and treating cardiovascular diseases.'
           }
         />
+      </div>
+      <div>
+        <DoctorCalendar/>
       </div>
       <Footer />
     </div>
