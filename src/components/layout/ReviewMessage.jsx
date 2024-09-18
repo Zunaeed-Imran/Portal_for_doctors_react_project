@@ -28,7 +28,7 @@ function ReviewMessage() {
           <input type="radio" name="rating-1" className="mask mask-star" />
           <input type="radio" name="rating-1" className="mask mask-star" />
         </div><br />
-        <button className="btn btn-primary">Send</button>
+        <button className="btn btn-primary">Submit</button>
       </form>
     </div>
   );
