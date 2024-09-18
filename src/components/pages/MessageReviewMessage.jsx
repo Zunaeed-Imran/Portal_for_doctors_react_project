@@ -3,7 +3,7 @@ import MessageDoctor from "../layout/MessageDoctor"
 
 function MessageReviewMessage() {
   return (
-    <div>
+    <div className="p-3 pl-20">
       <div className="">
       <MessageDoctor/>
       </div>
