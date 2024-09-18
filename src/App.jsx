@@ -7,6 +7,7 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import PageTitle from './components/PageTitle';
 import ReviewCard from './components/ReviewCard';
+import MessageReviewMessage from './components/pages/MessageReviewMessage';
 function App() {
 
   return (
@@ -17,6 +18,7 @@ function App() {
       <Category />
       <CardCard />
       <ReviewCard />
+      <MessageReviewMessage/>
       <Footer />
     </>
   );

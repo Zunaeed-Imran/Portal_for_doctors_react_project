@@ -6,7 +6,7 @@ function MessageDoctor() {
       <div>
         <textarea
           className="textarea textarea-bordered"
-          placeholder="Bio"
+          placeholder="Tell us what want us to do better"
         ></textarea>
       </div>
     </div>
