@@ -109,3 +109,15 @@ i will make a portal for Anesthesiologists doctor.
 - Rating System
 - Responsive Design
 - Accessibility Features
+
+### More Update List by Toma Apu
+- Doctor Availability Indicator.
+- Quick Appointment Booking with Pre-set Time Slots.
+- One-Click Reschedule for Appointments.
+- Quick Access to Emergency Contacts.
+- Patient History Snapshot on Appointment Booking.
+- Procedure Notes Section.
+- Pre-Anesthesia Checklist.
+- Follow-up Reminder System.
+- Medication Reminder for Patients.
+- Patient Preparation Instructions.
