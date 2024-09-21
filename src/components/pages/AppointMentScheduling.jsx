@@ -34,7 +34,7 @@ function AppointMentScheduling() {
           />{' '}
           <br />
           <button className="btn btn-outline btn-success" type="submit">
-            Submit
+            Make Appointment
           </button>
         </form>
       </div>
