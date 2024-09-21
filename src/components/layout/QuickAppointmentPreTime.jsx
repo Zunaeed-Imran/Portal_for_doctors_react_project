@@ -18,6 +18,7 @@ function QuickAppointmentPreTime() {
           </select>
           <div className="card-actions justify-end">
             <button className="btn btn-primary">Quick Appointment</button>
+            <button className="btn btn-primary">Reschedule</button>
           </div>
         </div>
       </div>
