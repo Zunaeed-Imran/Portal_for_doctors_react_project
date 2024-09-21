@@ -11,6 +11,7 @@ import { IconContext } from 'react-icons';
 import { MdAttachEmail } from 'react-icons/md';
 import { FaPhone } from 'react-icons/fa';
 import { GiLifeSupport } from 'react-icons/gi';
+import EmergencyContact from './EmergencyContact';
 
 
 
@@ -55,6 +56,9 @@ export default function Footer() {
               <FaYoutube color="red" />
             </a>
           </IconContext.Provider>
+          <div className='pl-5'>
+            <EmergencyContact/>
+          </div>
         </div>
       </div>
 
