@@ -97,7 +97,7 @@ i will make a portal for Anesthesiologists doctor.
 
 - (no need to show the description of the features just list down the features name)
 
-#### sort form of those tasks.
+#### sort form of those tasks. (all done for frontend)
 - Doctor Profile Pages
 - Appointment Scheduling
 - Search and Filter Options
