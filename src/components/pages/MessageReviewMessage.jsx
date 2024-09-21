@@ -4,15 +4,15 @@ import ReviewMessage from "../layout/ReviewMessage"
 
 function MessageReviewMessage() {
   return (
-    <div className="p-3 pl-20 flex">
+    <div className="grid grid-cols-1 md:grid-cols-2 p-3 pl-20 ">
       <div className="">
-        <MessageDoctor/>
+        <MessageDoctor />
       </div>
       <div className="">
-        <ReviewMessage/>
+        <ReviewMessage />
       </div>
     </div>
-  )
+  );
 }
 
 export default MessageReviewMessage

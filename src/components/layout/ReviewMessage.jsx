@@ -3,8 +3,8 @@
 function ReviewMessage() {
   return (
     <div className="p-10">
-      <p className="font-bold">This is review message</p>
-      <form action="">
+      <p className="font-bold ">This is review message</p>
+      <form action="" className="p-2 m-5">
         <input
           type="text"
           placeholder="Name"
@@ -27,7 +27,8 @@ function ReviewMessage() {
           <input type="radio" name="rating-1" className="mask mask-star" />
           <input type="radio" name="rating-1" className="mask mask-star" />
           <input type="radio" name="rating-1" className="mask mask-star" />
-        </div><br />
+        </div>
+        <br />
         <button className="btn btn-primary">Submit</button>
       </form>
     </div>

@@ -2,7 +2,7 @@
 
 function MessageDoctor() {
   return (
-    <div>
+    <div className="p-10">
       <p className="font-bold">You can message a Doctor</p>
       <div className="p-2 m-5">
         <form action="">
@@ -27,7 +27,8 @@ function MessageDoctor() {
           <textarea
             className="textarea textarea-bordered"
             placeholder="Tell us what you want us to do better"
-          ></textarea><br />
+          ></textarea>
+          <br />
           <button className="btn btn-primary">Send</button>
         </form>
       </div>
