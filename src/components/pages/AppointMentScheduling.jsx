@@ -1,9 +1,13 @@
+import QuickAppointmentPreTime from "../layout/QuickAppointmentPreTime";
 import Navbar from "../Navbar";
 
 function AppointMentScheduling() {
   return (
     <div className="bg-slate-300">
       <Navbar />
+      <div className="pt-20">
+        <QuickAppointmentPreTime/>
+      </div>
       <div className="pt-20 flex items-center justify-center min-h-screen">
         <form action="">
           <input
