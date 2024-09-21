@@ -58,7 +58,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="grid grid-cols-3 p-9 px-36">
+      <div className="grid grid-cols-1 md:grid-cols-3 p-9 px-36">
         <div className="min-h-[100px]">
           <h6 className="text-xl font-semibold">Actions</h6>
           <a className="text-decoration-none text-black" href="#">
