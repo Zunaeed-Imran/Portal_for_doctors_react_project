@@ -6,15 +6,15 @@ function Card({img, name, desc}) {
   return (
     <div>
       <div className="flex ">
-        <div className="card bg-zinc-400 w-96 shadow-xl rounded-none">
+        <div className="card bg-stone-400 w-screen shadow-xl rounded">
           <figure className="pt-7">{img}</figure>
           <div className="card-body ">
             <h2 className="card-title">{name}</h2>
             <p>{desc}</p>
             <div className="card-actions justify-end">
               <Link to="/DoctorP">
-              <button className="btn btn-accent">Doctor List</button>
-             </Link>
+                <button className="btn btn-accent">Doctor List</button>
+              </Link>
             </div>
           </div>
         </div>

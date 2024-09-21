@@ -9,7 +9,7 @@ import { GiKidneys } from 'react-icons/gi';
 
 function CardCard() {
   return (
-    <div className="grid grid-cols-3 gap-1 my-3">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1 my-3">
       <Card
         img={<FaHeartbeat size="6rem" color="#f50031" />}
         name={'Health Care'}
@@ -20,9 +20,7 @@ function CardCard() {
       <Card
         img={<LiaTeethOpenSolid size="6rem" />}
         name={'Fluoride Treatment'}
-        desc={
-          ' Fluoride Treatment consectetur adipisicing elit, nostrum we'
-        }
+        desc={' Fluoride Treatment consectetur adipisicing elit, nostrum we'}
       />
       <Card
         img={<IoEye size="6rem" color="#2e5de8" />}
