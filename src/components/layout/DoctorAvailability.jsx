@@ -3,7 +3,7 @@
 function DoctorAvailability() {
   return (
     <div>
-      
+      i am available.
     </div>
   )
 }

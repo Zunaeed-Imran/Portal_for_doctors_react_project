@@ -5,6 +5,7 @@ import Footer from "../layout/Footer";
 import Navbar from "../Navbar";
 import Search from "../layout/Search";
 import DoctorCalendar from "../layout/DoctorCalendar";
+import DoctorAvailability from "../layout/DoctorAvailability";
 
 function DoctorProfile() {
   return (
@@ -12,8 +13,11 @@ function DoctorProfile() {
       <div>
        <Navbar />
       </div>
-      <div className="pt-20">
-       <Search />
+      <div className="grid grid-cols-3 gap-3 pt-20">
+        <div className="col-span-2">
+        <Search/>
+        </div>
+        <DoctorAvailability/>
       </div>
       <div className="flex box-content pt-24">
         <DoctorComponent
