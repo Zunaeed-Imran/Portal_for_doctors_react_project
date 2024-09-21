@@ -1,10 +1,11 @@
 import { FaHome, FaQuestion } from 'react-icons/fa';
-import { TbLogin2 } from 'react-icons/tb';
 import { IconContext } from 'react-icons';
 import { Link } from 'react-router-dom';
 import { FcBadDecision } from 'react-icons/fc';
 import Search from './layout/Search';
 import NotifyButton from './layout/NotifyButton';
+import { FcButtingIn } from 'react-icons/fc';
+
 import { FaBars } from 'react-icons/fa6';
 
 
@@ -38,11 +39,11 @@ export default function Navbar() {
               Doctors
             </Link>
             <Link
-              to="/"
+              to="/appointment"
               className="flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-[#7c9dcf] hover:bg-green-500"
             >
-              <TbLogin2 />
-              Login
+              <FcButtingIn />
+              Appointment
             </Link>
             <Link
               to="/patientDash"
