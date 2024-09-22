@@ -1,19 +1,20 @@
 import { FcApproval, FcBriefcase, FcCustomerSupport, FcDecision, FcDislike } from "react-icons/fc";
-import PatientHistory from "../layout/PatientHistory";
-import QuickAppointmentPreTime from "../layout/QuickAppointmentPreTime";
+// import PatientHistory from "../layout/PatientHistory";
+// import QuickAppointmentPreTime from "../layout/QuickAppointmentPreTime";
 import Navbar from "../Navbar";
 import { FaHistory } from "react-icons/fa";
+import { Link, Outlet } from "react-router-dom";
 
 function AppointMentScheduling() {
   return (
     <div className="bg-slate-300">
       <Navbar />
-      <div className="pt-20">
+      {/* <div className="pt-20">
         <PatientHistory />
-      </div>
-      <div className="p-3">
+      </div> */}
+      {/* <div className="p-3">
         <QuickAppointmentPreTime />
-      </div>
+      </div> */}
       {/* <div className="pt-20 flex items-center justify-center min-h-screen">
         <form action="">
           <input
@@ -49,7 +50,7 @@ function AppointMentScheduling() {
           <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content flex flex-col items-center justify-center">
             {/* Page content here */}
-            <p className="font-bold">There will be patient profile page.</p>
+            <Outlet />
           </div>
           <div className="drawer-side">
             <label
@@ -60,40 +61,40 @@ function AppointMentScheduling() {
             <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
               {/* Sidebar content here */}
               <li>
-                <div className="btn-ghost text-xl">
+                <Link to="" className="btn-ghost text-xl">
                   <FcApproval />
                   Quick Appointment
-                </div>
+                </Link>
               </li>
               <li>
-                <div className="btn-ghost text-xl">
+                <Link to='/paitentHistory' className="btn-ghost text-xl">
                   <FaHistory />
                   Patient History
-                </div>
+                </Link>
               </li>
               <li>
-                <div className="btn-ghost text-xl">
+                <Link className="btn-ghost text-xl">
                   <FcBriefcase />
                   Invoice
-                </div>
+                </Link>
               </li>
               <li>
-                <div className="btn-ghost text-xl">
+                <Link className="btn-ghost text-xl">
                   <FcCustomerSupport />
                   Complain
-                </div>
+                </Link>
               </li>
               <li>
-                <div className="btn-ghost text-xl">
+                <Link className="btn-ghost text-xl">
                   <FcDecision />
                   Old Appointment
-                </div>
+                </Link>
               </li>
               <li>
-                <div className="btn-ghost text-xl">
+                <Link className="btn-ghost text-xl">
                   <FcDislike />
                   Report
-                </div>
+                </Link>
               </li>
             </ul>
           </div>

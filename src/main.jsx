@@ -9,6 +9,7 @@ import AppointMentScheduling from './components/pages/AppointMentScheduling.jsx'
 import PatientDashboard from './components/pages/PatientDashboard.jsx'
 import DoctorCalendar from './components/layout/DoctorCalendar.jsx'
 import MainLayout from './components/layout/MainLayout.jsx'
+import PatientHistory from './components/layout/PatientHistory.jsx'
 
 
 const router = createBrowserRouter([
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
         path: '/doctorCalender',
         element: <DoctorCalendar />,
       },
+      {
+        path: '/paitentHistory',
+        element: <PatientHistory />,
+      }
     ],
   },
 ]);
