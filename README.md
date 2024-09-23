@@ -117,7 +117,7 @@ i will make a portal for Anesthesiologists doctor.
 - Quick Access to Emergency Contacts.
 - Patient History Snapshot on Appointment Booking.
 - Procedure Notes Section.
-- Pre-Anesthesia Checklist.
-- Follow-up Reminder System.
-- Medication Reminder for Patients.
-- Patient Preparation Instructions.
+- Pre-Anesthesia Checklist. (what have to do for patient before Anesthesia)
+- Follow-up Reminder System. (2nd or 3rd time what i patient have to take with.)
+- Medication Reminder for Patients.(remainder for medicin for patient)
+- Patient Preparation Instructions. (for doctor next meet what patient have to prepare)
