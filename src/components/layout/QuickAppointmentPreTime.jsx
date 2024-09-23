@@ -3,7 +3,7 @@
 
 function QuickAppointmentPreTime() {
   return (
-    <div>
+    <div className="pt-20">
       <div className="card bg-stone-500	 text-neutral-content w-96">
         <div className="card-body items-center text-center">
           <h2 className="card-title">Quick Appointment.</h2>

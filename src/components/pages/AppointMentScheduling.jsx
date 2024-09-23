@@ -28,7 +28,7 @@ function AppointMentScheduling() {
               </li>
               <li>
                 <Link
-                  to="quickAppointmentPreTime"
+                  to={'/quickAppointmentPreTime'}
                   className="btn-ghost text-xl"
                 >
                   <FcApproval />
