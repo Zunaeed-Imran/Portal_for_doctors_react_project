@@ -3,7 +3,7 @@
 
 function PatientHistory() {
   return (
-    <div>
+    <div className="pt-20">
       History of patient.
     </div>
   )

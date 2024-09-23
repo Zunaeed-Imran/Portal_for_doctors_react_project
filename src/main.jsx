@@ -10,6 +10,8 @@ import PatientDashboard from './components/pages/PatientDashboard.jsx'
 import DoctorCalendar from './components/layout/DoctorCalendar.jsx'
 import MainLayout from './components/layout/MainLayout.jsx'
 import PatientHistory from './components/layout/PatientHistory.jsx'
+import QuickAppointmentPreTime from './components/layout/QuickAppointmentPreTime.jsx'
+import Appointment from './components/layout/Appointment.jsx'
 
 
 const router = createBrowserRouter([
@@ -41,7 +43,15 @@ const router = createBrowserRouter([
       {
         path: '/paitentHistory',
         element: <PatientHistory />,
-      }
+      },
+      {
+        path: '/quickAppointmentPreTime',
+        element: <QuickAppointmentPreTime />,
+      },
+      {
+        path: '/singleAppointment',
+        element: <Appointment/>
+      },
     ],
   },
 ]);
