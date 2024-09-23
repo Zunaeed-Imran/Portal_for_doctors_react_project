@@ -13,6 +13,9 @@ import PatientHistory from './components/layout/PatientHistory.jsx'
 import QuickAppointmentPreTime from './components/layout/QuickAppointmentPreTime.jsx'
 import Appointment from './components/layout/Appointment.jsx'
 import ReminderPatientFollowUp from './components/sortComponent/ReminderPatientFollowUp.jsx'
+import PreAnesthesiaCheck from './components/sortComponent/PreAnesthesiaCheck.jsx'
+import PatientMedicinRemind from './components/sortComponent/PatientMedicinRemind.jsx'
+import PatientPraparationInstruction from './components/sortComponent/PatientPraparationInstruction.jsx'
 
 
 const router = createBrowserRouter([
@@ -56,6 +59,18 @@ const router = createBrowserRouter([
       {
         path: '/remainderpatient',
         element: <ReminderPatientFollowUp/>
+      },
+      {
+        path: '/preAnesthesiaCheck',
+        element: <PreAnesthesiaCheck/>
+      },
+      {
+        path: '/patientMedicinReminder',
+        element: <PatientMedicinRemind/>
+      },
+      {
+        path: '/patientPreparationInstruction',
+        element: <PatientPraparationInstruction/>
       }
     ],
   },
