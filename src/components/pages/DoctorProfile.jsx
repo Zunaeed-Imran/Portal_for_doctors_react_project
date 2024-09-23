@@ -5,6 +5,7 @@ import Footer from "../layout/Footer";
 import Search from "../layout/Search";
 import DoctorCalendar from "../layout/DoctorCalendar";
 import DoctorAvailability from "../layout/DoctorAvailability";
+import DoctorNote from "../sortComponent/DoctorNote";
 
 function DoctorProfile() {
   return (
@@ -33,8 +34,9 @@ function DoctorProfile() {
           }
         />
       </div>
-      <div>
-        <DoctorCalendar/>
+      <div className="flex p-3 gap-3">
+        <DoctorCalendar />
+        <DoctorNote/>
       </div>
       <Footer />
     </div>
