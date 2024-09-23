@@ -1,4 +1,4 @@
-
+//  in this components patint can know before meet the Doctor, what he have to do before meet.
 
 function PatientPraparationInstruction() {
   return (
