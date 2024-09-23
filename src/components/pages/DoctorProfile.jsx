@@ -2,7 +2,6 @@ import DoctorComponent from "../layout/DoctorComponent"
 import doctor1 from '../../assets/avater/1.png';
 import doctor6 from '../../assets/avater/6.png';
 import Footer from "../layout/Footer";
-import Navbar from "../Navbar";
 import Search from "../layout/Search";
 import DoctorCalendar from "../layout/DoctorCalendar";
 import DoctorAvailability from "../layout/DoctorAvailability";
@@ -10,9 +9,6 @@ import DoctorAvailability from "../layout/DoctorAvailability";
 function DoctorProfile() {
   return (
     <div>
-      <div>
-       <Navbar />
-      </div>
       <div className="grid grid-cols-3 gap-3 pt-20">
         <div className="col-span-2">
         <Search/>

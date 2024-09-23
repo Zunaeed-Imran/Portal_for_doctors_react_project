@@ -1,14 +1,12 @@
 import { FcApproval, FcBriefcase, FcCustomerSupport, FcDecision, FcDislike } from "react-icons/fc";
 // import PatientHistory from "../layout/PatientHistory";
 // import QuickAppointmentPreTime from "../layout/QuickAppointmentPreTime";
-import Navbar from "../Navbar";
 import { FaHistory } from "react-icons/fa";
 import { Link, Outlet } from "react-router-dom";
 
 function AppointMentScheduling() {
   return (
     <div className="bg-slate-300">
-      <Navbar />
       {/* <div className="pt-20">
         <PatientHistory />
       </div> */}

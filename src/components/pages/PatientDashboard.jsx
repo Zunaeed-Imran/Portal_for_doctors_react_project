@@ -1,4 +1,3 @@
-import Navbar from "../Navbar"
 import { FcApproval } from 'react-icons/fc';
 import { FcCableRelease } from 'react-icons/fc';
 import { FcBriefcase } from 'react-icons/fc';
@@ -10,9 +9,6 @@ import { FcDislike } from "react-icons/fc";
 function PatientDashboard() {
   return (
     <div>
-      <div>
-        <Navbar />
-      </div>
       <div className="pt-20">
         <div className="drawer lg:drawer-open">
           <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
