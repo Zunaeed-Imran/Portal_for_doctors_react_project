@@ -45,22 +45,34 @@ function PatientDashboard() {
                 </Link>
               </li>
               <li>
-                <div className="btn-ghost text-xl">
+                <Link to={'/preAnesthesiaCheck'} className="btn-ghost text-xl">
                   <FcCustomerSupport />
-                  Complain
-                </div>
+                  Pre-Anesthesia Checklist
+                </Link>
               </li>
               <li>
-                <div className="btn-ghost text-xl">
+                <Link to={'/remainderpatient'} className="btn-ghost text-xl">
                   <FcDecision />
-                  Old Appointment
-                </div>
+                  Follow-up Reminder
+                </Link>
               </li>
               <li>
-                <div className="btn-ghost text-xl">
+                <Link
+                  to={'/patientMedicinReminder'}
+                  className="btn-ghost text-xl"
+                >
                   <FcDislike />
-                  Report
-                </div>
+                  Medication Reminder.
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to={'/patientPreparationInstruction'}
+                  className="btn-ghost text-xl"
+                >
+                  <FcDecision />
+                  Preparation Instructions.
+                </Link>
               </li>
             </ul>
           </div>

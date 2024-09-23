@@ -57,12 +57,12 @@ const router = createBrowserRouter([
         element: <Appointment/>
       },
       {
-        path: '/remainderpatient',
-        element: <ReminderPatientFollowUp/>
-      },
-      {
         path: '/preAnesthesiaCheck',
         element: <PreAnesthesiaCheck/>
+      },
+      {
+        path: '/remainderpatient',
+        element: <ReminderPatientFollowUp/>
       },
       {
         path: '/patientMedicinReminder',
