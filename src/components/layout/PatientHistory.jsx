@@ -1,4 +1,4 @@
-import patientHistory from '../../assets/christine-sandu-jwWtZrm67VI-unsplash.jpg';
+import patientHistory from '../../assets/report/report_1.png';
 
 
 function PatientHistory() {
