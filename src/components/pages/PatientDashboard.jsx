@@ -1,9 +1,8 @@
-import { FcApproval } from 'react-icons/fc';
+import { FaAnkh } from 'react-icons/fa';
+import { FcApproval, FcBiohazard } from 'react-icons/fc';
 import { FcCableRelease } from 'react-icons/fc';
-import { FcBriefcase } from 'react-icons/fc';
-import { FcCustomerSupport } from 'react-icons/fc';
-import { FcDecision } from 'react-icons/fc';
-import { FcDislike } from "react-icons/fc";
+import { MdOutlineRememberMe } from 'react-icons/md';
+import { PiPillDuotone } from 'react-icons/pi';
 import { Link, Outlet } from 'react-router-dom';
 
 
@@ -39,20 +38,14 @@ function PatientDashboard() {
                 </Link>
               </li>
               <li>
-                <Link to={'/remainderpatient'} className="btn-ghost text-xl">
-                  <FcBriefcase />
-                  Follow Up Remainder
-                </Link>
-              </li>
-              <li>
                 <Link to={'/preAnesthesiaCheck'} className="btn-ghost text-xl">
-                  <FcCustomerSupport />
+                  <FcBiohazard />
                   Pre-Anesthesia Checklist
                 </Link>
               </li>
               <li>
                 <Link to={'/remainderpatient'} className="btn-ghost text-xl">
-                  <FcDecision />
+                  <MdOutlineRememberMe />
                   Follow-up Reminder
                 </Link>
               </li>
@@ -61,7 +54,7 @@ function PatientDashboard() {
                   to={'/patientMedicinReminder'}
                   className="btn-ghost text-xl"
                 >
-                  <FcDislike />
+                  <PiPillDuotone />
                   Medication Reminder.
                 </Link>
               </li>
@@ -70,7 +63,7 @@ function PatientDashboard() {
                   to={'/patientPreparationInstruction'}
                   className="btn-ghost text-xl"
                 >
-                  <FcDecision />
+                  <FaAnkh />
                   Preparation Instructions.
                 </Link>
               </li>
