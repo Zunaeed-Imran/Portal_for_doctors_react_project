@@ -39,10 +39,10 @@ function PatientDashboard() {
                 </Link>
               </li>
               <li>
-                <div className="btn-ghost text-xl">
+                <Link to={'/remainderpatient'} className="btn-ghost text-xl">
                   <FcBriefcase />
-                  Invoice
-                </div>
+                  Follow Up Remainder
+                </Link>
               </li>
               <li>
                 <div className="btn-ghost text-xl">

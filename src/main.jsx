@@ -12,6 +12,7 @@ import MainLayout from './components/layout/MainLayout.jsx'
 import PatientHistory from './components/layout/PatientHistory.jsx'
 import QuickAppointmentPreTime from './components/layout/QuickAppointmentPreTime.jsx'
 import Appointment from './components/layout/Appointment.jsx'
+import ReminderPatientFollowUp from './components/sortComponent/ReminderPatientFollowUp.jsx'
 
 
 const router = createBrowserRouter([
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
         path: '/singleAppointment',
         element: <Appointment/>
       },
+      {
+        path: '/remainderpatient',
+        element: <ReminderPatientFollowUp/>
+      }
     ],
   },
 ]);
