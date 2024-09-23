@@ -4,6 +4,7 @@ import { FcBriefcase } from 'react-icons/fc';
 import { FcCustomerSupport } from 'react-icons/fc';
 import { FcDecision } from 'react-icons/fc';
 import { FcDislike } from "react-icons/fc";
+import { Link, Outlet } from 'react-router-dom';
 
 
 function PatientDashboard() {
@@ -15,6 +16,7 @@ function PatientDashboard() {
           <div className="drawer-content flex flex-col items-center justify-center">
             {/* Page content here */}
             <p className="font-bold">There will be patient profile page.</p>
+            <Outlet />
           </div>
           <div className="drawer-side">
             <label
@@ -31,10 +33,10 @@ function PatientDashboard() {
                 </div>
               </li>
               <li>
-                <div className="btn-ghost text-xl">
+                <Link to={'/singleAppointment'} className="btn-ghost text-xl">
                   <FcCableRelease />
                   Book Appointment
-                </div>
+                </Link>
               </li>
               <li>
                 <div className="btn-ghost text-xl">
