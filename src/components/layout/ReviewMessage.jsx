@@ -8,11 +8,10 @@ function ReviewMessage() {
         <input
           type="text"
           placeholder="Name"
-          className="input input-bordered w-full max-w-xs"
+          className="input input-bordered w-full max-w-xs my-2"
         />{' '}
-        <br />
         <textarea
-          className="textarea textarea-bordered"
+          className="textarea textarea-bordered my-2"
           placeholder="Tell us what yor experiance is!!"
         ></textarea>
         <br />
@@ -29,7 +28,7 @@ function ReviewMessage() {
           <input type="radio" name="rating-1" className="mask mask-star" />
         </div>
         <br />
-        <button className="btn btn-primary">Submit</button>
+        <button type="text" className="btn btn-primary">Submit</button>
       </form>
     </div>
   );
