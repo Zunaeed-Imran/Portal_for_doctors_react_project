@@ -15,7 +15,7 @@ function Category() {
               and after surgeries and invasive procedures.
             </p>
             <h1 className="text-xl font-bold">What is anesthesia?</h1>
-            <p className="py-4">
+            <p className="py-2">
               Anesthesia is a medical treatment that keeps you from feeling pain
               during procedures or surgery. The medications anesthesiologists
               and other healthcare providers use to block pain are called
@@ -32,7 +32,7 @@ function Category() {
             <h1 className="text-xl font-bold">
               Is an anesthesiologist a doctor?
             </h1>
-            <p className="py-4">
+            <p className="py-2">
               Yes, a physician anesthesiologist is a doctor, just like your
               surgeon and primary care provider. They have a Doctor of Medicine
               (MD) or Doctor of Osteopathic Medicine (DO) degree, and together
@@ -42,7 +42,7 @@ function Category() {
             <h1 className="text-xl font-bold">
               What does an anesthesiologist do?
             </h1>
-            <p className="py-4">
+            <p className="py-2">
               Similar to your primary care doctor, your physician
               anesthesiologist manages all aspects of your medical care (blood
               pressure, diabetes, asthma and heart conditions), while
