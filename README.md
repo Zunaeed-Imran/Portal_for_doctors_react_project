@@ -107,7 +107,7 @@ i will make a portal for Anesthesiologists doctor.
 - Messaging System
 - Review Moderation
 - Rating System
-- Responsive Design
+- Responsive Design (also i need to check surface Pro 7 in console)
 - Accessibility Features
 
 ### More Update List by Toma Apu
