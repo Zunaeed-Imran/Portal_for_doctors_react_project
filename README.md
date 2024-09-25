@@ -121,3 +121,19 @@ i will make a portal for Anesthesiologists doctor.
 - Follow-up Reminder System. (2nd or 3rd time what i patient have to take with.)
 - Medication Reminder for Patients.(remainder for medicin for patient)
 - Patient Preparation Instructions. (for doctor next meet what patient have to prepare)
+
+### More need to change or resolved.(idea by Julius Bhai)
+- what style need to change in the  Project(AnestheSure)
+- in the Review section star need to center.
+- in the Review card botton need some margin.
+- Card component Upper magrin need to decrease.
+- Card Size need to samll to look good.
+- Hero Section need to small in the large screen.
+- All input form need to need space after a input form.
+- All input form need Same width to look nice.
+- Footer Alignment need to fix.
+- in Submit Button type submit need to remove.
+- in the button text not should be underline.
+- calender need to remove doctor page and set date in the appointment input filed.
+- also need to remove note form the docotr page and when click appoint button than show the note for doctor.
+- side bar should not away when click one of the feature.
