@@ -1,4 +1,5 @@
 
+// Don't use this page.
 // bg - [url('assets/marcelo-leal-6pcGTJDuf6M-unsplash.jpg')];
 //  did not use home page in this project yet.
 
