@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'; // up to the file
 function Review({ img, name}) {
 
   return (
-    <div className='flex'>
+    <div className='flex pb-2'>
         <div className="card bg-base-100 w-56 shadow-xl p-3">
           <div className="avatar p-3 justify-center">
             <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
@@ -16,7 +16,7 @@ function Review({ img, name}) {
             I had a wonderful visit to AnestheSure for my back. The care I
             received from Doctor younus was exceptional
           </p>
-          <div className="rating">
+          <div className="rating justify-center">
             <input
               type="radio"
               name="rating-2"
