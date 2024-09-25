@@ -22,7 +22,7 @@ function MessageDoctor() {
             className="input input-bordered w-full max-w-xs my-2"
           />{' '}
           <textarea
-            className="textarea textarea-bordered"
+            className="textarea textarea-bordered w-80 h-32"
             placeholder="Tell us what you want us to do better"
           ></textarea><br />
           <button className="btn btn-primary">Send</button>
