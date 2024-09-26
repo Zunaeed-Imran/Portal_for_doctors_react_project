@@ -9,17 +9,17 @@ function MessageDoctor() {
           <input
             type="text"
             placeholder="Name"
-            className="input input-bordered w-full max-w-xs my-2"
+            className="input input-bordered w-full max-w-xs my-1"
           />{' '}
           <input
             type="number"
             placeholder="Phone"
-            className="input input-bordered w-full max-w-xs my-2"
+            className="input input-bordered w-full max-w-xs my-1"
           />{' '}
           <input
             type="email"
             placeholder="@email"
-            className="input input-bordered w-full max-w-xs my-2"
+            className="input input-bordered w-full max-w-xs my-1"
           />{' '}
           <textarea
             className="textarea textarea-bordered w-80 h-32"
