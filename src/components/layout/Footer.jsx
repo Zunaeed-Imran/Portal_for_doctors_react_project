@@ -56,14 +56,14 @@ export default function Footer() {
               <FaYoutube color="red" />
             </a>
           </IconContext.Provider>
-          <div className='pl-5'>
-            <EmergencyContact/>
+          <div className="pl-5">
+            <EmergencyContact />
           </div>
         </div>
       </div>
 
       <div className="grid grid-cols-1 gap-6 md:grid-cols-3 p-9 px-20">
-        <div className="min-h-[100px]">
+        <div className="min-h-[100px] flex flex-col gap-1">
           <h6 className="text-xl font-semibold">Actions</h6>
           <a className="text-decoration-none text-black" href="#">
             <p>Appointment & Access</p>
@@ -97,7 +97,7 @@ export default function Footer() {
           </a>
         </div>
 
-        <div className="min-h-[100px]">
+        <div className="min-h-[100px] flex flex-col gap-1">
           <h6 className="text-xl font-semibold">About AnestheSure</h6>
           <a className="text-decoration-none text-black" href="#">
             <p>About Us</p>
@@ -131,7 +131,7 @@ export default function Footer() {
           </a>
         </div>
 
-        <div className="min-h-[100px]">
+        <div className="min-h-[100px] flex flex-col gap-1">
           <h6 className="text-xl font-semibold">ADDRESS</h6>
 
           <p className="flex items-center gap-2">
