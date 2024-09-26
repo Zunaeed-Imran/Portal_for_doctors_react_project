@@ -16,7 +16,7 @@ function DoctorComponent({img, desig, title, desc}) {
           <div className="card-actions">
             <Link to='/appointment'>
             <button className="btn btn-primary">
-                Make_Appointment
+                Make Appointment
             </button>
            </Link>
           </div>
