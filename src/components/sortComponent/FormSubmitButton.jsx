@@ -9,14 +9,10 @@ function FormSubmitButton() {
     };  
 
   return (
-    <div>
-      <button
-        onClick={submit}
-        className="btn btn-ghost bg-green-600">
-        Submit
-      </button>
+    <div onClick={submit} className="btn btn-ghost bg-green-600">
+      Submit
     </div>
-  )
+  );
 }
 
 export default FormSubmitButton
