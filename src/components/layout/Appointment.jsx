@@ -24,9 +24,11 @@ function Appointment() {
             placeholder="Existing Conditions"
             className="input input-bordered w-full max-w-xs"
           />
-          <input
-            type="date"
-            className="input input-bordered w-full max-w-xs" />
+          <input type="date" className="input input-bordered w-full max-w-xs" />
+          <textarea
+            placeholder="Note for Doctor to see."
+            className="input input-bordered w-full max-w-xs"
+          ></textarea>
           <button className="btn btn-outline btn-success" type="submit">
             Make Appointment
           </button>
