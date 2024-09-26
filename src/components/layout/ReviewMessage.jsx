@@ -1,3 +1,4 @@
+import FormSubmitButton from "../sortComponent/FormSubmitButton";
 
 
 function ReviewMessage() {
@@ -28,9 +29,9 @@ function ReviewMessage() {
           <input type="radio" name="rating-1" className="mask mask-star" />
         </div>
         <br />
-        <button type="text" className="btn btn-primary">
-          Submit
-        </button>
+        <div>
+          <FormSubmitButton/>
+        </div>
       </form>
     </div>
   );
