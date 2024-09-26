@@ -5,7 +5,7 @@ function Category() {
   return (
     <div>
       <div className="hero bg-gray-200 min-h-screen">
-        <div className="hero-content flex-col lg:flex-row">
+        <div className="hero-content flex-col lg:flex-row lg:justify-start lg:pl-1">
           <div>
             <h1 className="text-2xl font-bold">Overview</h1>
             <h1 className="text-xl font-bold">What is an anesthesiologist?</h1>
