@@ -1,9 +1,14 @@
+import FormSubmitButton from "../sortComponent/FormSubmitButton";
 
 function Appointment() {
   return (
     <div>
       <div className="pt-20 flex items-center justify-center min-h-screen">
         <form action="" className="flex flex-col gap-2">
+          <label
+            htmlFor=""
+            className="text-2xl font-semibold"
+          >MAKE APPOINTMENT</label>
           <input
             type="text"
             placeholder="Full Name"
@@ -29,9 +34,9 @@ function Appointment() {
             placeholder="Note for Doctor to see."
             className="input input-bordered w-full max-w-xs"
           ></textarea>
-          <button className="btn btn-outline btn-success" type="submit">
-            Make Appointment
-          </button>
+          <div>
+            <FormSubmitButton/>
+          </div>
         </form>
       </div>
     </div>
