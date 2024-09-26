@@ -1,17 +1,10 @@
 // this is footer section.
 import { FaUserDoctor } from 'react-icons/fa6';
-import { FaLinkedin } from 'react-icons/fa';
-import { FaSquareXTwitter } from 'react-icons/fa6';
-import { ImGithub } from 'react-icons/im';
-import { FaGooglePlay } from 'react-icons/fa';
-import { FaInstagramSquare } from 'react-icons/fa';
-import { FaFacebookSquare } from 'react-icons/fa';
-import { FaYoutube } from 'react-icons/fa';
-import { IconContext } from 'react-icons';
 import { MdAttachEmail } from 'react-icons/md';
 import { FaPhone } from 'react-icons/fa';
 import { GiLifeSupport } from 'react-icons/gi';
 import EmergencyContact from './EmergencyContact';
+import Logo from './Logo';
 
 
 
@@ -20,7 +13,7 @@ export default function Footer() {
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 bg-slate-100">
-        <div className="min-h-[100px] pl-52 p-6">
+        <div className="min-h-[100px] pl-20 p-6">
           <a href="#" className="flex items-center gap-1 font-semibold">
             <FaUserDoctor size="2.5rem" color="#c74332" /> AnestheSure
           </a>
@@ -32,33 +25,9 @@ export default function Footer() {
             and after your surgery.
           </p>
         </div>
-        <div className="min-h-[100px] flex items-center gap-1">
-          <IconContext.Provider value={{ size: '2.5rem' }}>
-            <a href="#">
-              <FaLinkedin color="#2f88cc" />
-            </a>
-            <a href="#">
-              <FaSquareXTwitter />
-            </a>
-            <a href="#">
-              <ImGithub />
-            </a>
-            <a href="#">
-              <FaGooglePlay color="#33d448" />
-            </a>
-            <a href="#">
-              <FaInstagramSquare color="#d802eb" />
-            </a>
-            <a href="#">
-              <FaFacebookSquare color="#3358b5" />
-            </a>
-            <a href="#">
-              <FaYoutube color="red" />
-            </a>
-          </IconContext.Provider>
-          <div className="pl-5">
-            <EmergencyContact />
-          </div>
+        <div className="pl-20 pt-5 ">
+          <EmergencyContact />
+          <Logo/>
         </div>
       </div>
 
