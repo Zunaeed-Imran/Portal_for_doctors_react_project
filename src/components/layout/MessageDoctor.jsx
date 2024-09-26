@@ -1,3 +1,4 @@
+import FormSubmitButton from "../sortComponent/FormSubmitButton";
 
 
 function MessageDoctor() {
@@ -25,7 +26,9 @@ function MessageDoctor() {
             className="textarea textarea-bordered w-80 h-32"
             placeholder="Tell us what you want us to do better"
           ></textarea><br />
-          <button className="btn btn-primary">Send</button>
+          <div>
+            <FormSubmitButton/>
+          </div>
         </form>
       </div>
     </div>
