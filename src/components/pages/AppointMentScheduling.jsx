@@ -41,24 +41,6 @@ function AppointMentScheduling() {
                   Patient History
                 </Link>
               </li>
-              <li>
-                <Link className="btn-ghost text-xl">
-                  <FcCustomerSupport />
-                  Complain
-                </Link>
-              </li>
-              <li>
-                <Link className="btn-ghost text-xl">
-                  <FcDecision />
-                  Old Appointment
-                </Link>
-              </li>
-              <li>
-                <Link className="btn-ghost text-xl">
-                  <FcDislike />
-                  Report
-                </Link>
-              </li>
             </ul>
           </div>
         </div>
