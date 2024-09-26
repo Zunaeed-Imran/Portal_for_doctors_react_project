@@ -15,7 +15,7 @@ function DoctorProfile() {
         </div>
         <DoctorAvailability />
       </div>
-      <div className="flex box-content pt-24">
+      <div className="flex box-content pt-24 gap-1">
         <DoctorComponent
           img={doctor1}
           desig={"Dr.Vincent Barron"}
