@@ -21,14 +21,14 @@ function AppointMentScheduling() {
             <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
               {/* Sidebar content here */}
               <li>
-                <Link to={'/singleAppointment'} className="btn-ghost text-xl">
+                <Link to={'singleAppointment'} className="btn-ghost text-xl">
                   <FcCalendar />
                   Appointment
                 </Link>
               </li>
               <li>
                 <Link
-                  to={'/quickAppointmentPreTime'}
+                  to={'quickAppointmentPreTime'}
                   className="btn-ghost text-xl"
                 >
                   <FcApproval />
@@ -36,7 +36,7 @@ function AppointMentScheduling() {
                 </Link>
               </li>
               <li>
-                <Link to="/paitentHistory" className="btn-ghost text-xl">
+                <Link to="paitentHistory" className="btn-ghost text-xl">
                   <FaHistory />
                   Patient History
                 </Link>

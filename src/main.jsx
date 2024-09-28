@@ -29,12 +29,26 @@ const router = createBrowserRouter([
         errorElement: <NotFoundpage />,
       },
       {
-        path: '/DoctorP',
-        element: <DoctorProfile />,
-      },
-      {
         path: '/appointment',
         element: <AppointMentScheduling />,
+        children: [
+          {
+            path: 'singleAppointment',
+            element: <Appointment />,
+          },
+          {
+            path: 'quickAppointmentPreTime',
+            element: <QuickAppointmentPreTime />,
+          },
+          {
+            path: 'paitentHistory',
+            element: <PatientHistory />,
+          },
+        ],
+      },
+      {
+        path: '/DoctorP',
+        element: <DoctorProfile />,
       },
       {
         path: '/patientDash',
@@ -45,33 +59,21 @@ const router = createBrowserRouter([
         element: <DoctorCalendar />,
       },
       {
-        path: '/paitentHistory',
-        element: <PatientHistory />,
-      },
-      {
-        path: '/quickAppointmentPreTime',
-        element: <QuickAppointmentPreTime />,
-      },
-      {
-        path: '/singleAppointment',
-        element: <Appointment/>
-      },
-      {
         path: '/preAnesthesiaCheck',
-        element: <PreAnesthesiaCheck/>
+        element: <PreAnesthesiaCheck />,
       },
       {
         path: '/remainderpatient',
-        element: <ReminderPatientFollowUp/>
+        element: <ReminderPatientFollowUp />,
       },
       {
         path: '/patientMedicinReminder',
-        element: <PatientMedicinRemind/>
+        element: <PatientMedicinRemind />,
       },
       {
         path: '/patientPreparationInstruction',
-        element: <PatientPraparationInstruction/>
-      }
+        element: <PatientPraparationInstruction />,
+      },
     ],
   },
 ]);
