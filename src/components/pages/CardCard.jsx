@@ -20,37 +20,37 @@ function CardCard() {
       <Card
         img={<LiaTeethOpenSolid size="6rem" />}
         name={'Fluoride Treatment'}
-        desc={'Fluoride Treatment consectetur adipisicing elit, no'}
+        desc={'Specialist amet consectetur adipisicing elit. Conse'}
       />
       <Card
         img={<IoEye size="6rem" color="#2e5de8" />}
         name={'Eye Specialist'}
-        desc={'Eye Specialist amet consectetur adipisicing elit. C'}
+        desc={'Specialist amet consectetur adipisicing elit. Conse'}
       />
       <Card
         img={<FaBrain size="6rem" color="	#f3b5b8" />}
         name={'Brain Specialist'}
-        desc={'Brain Specialist amet consectetur adipisicing elit '}
+        desc={'Specialist amet consectetur adipisicing elit. Conse'}
       />
       <Card
         img={<FaLungs size="6rem" color="#d42257" />}
         name={'Lung Treatment'}
-        desc={'Lung Specialist amet consectetur adipisicing elit. '}
+        desc={'Specialist amet consectetur adipisicing elit. Conse'}
       />
       <Card
         img={<GiKidneys size="6rem" color="#9e0533" />}
         name={'Kidney Transplant'}
-        desc={'Kidney Transplant amet consectetur adipisicing elit'}
+        desc={'Specialist amet consectetur adipisicing elit. Conse'}
       />
       <Card
         img={<SiKnip size="6rem" color="#9e0533" />}
         name={'General Surgery'}
-        desc={'Kidney Transplant amet consectetur adipisicing elit'}
+        desc={'Specialist amet consectetur adipisicing elit. Conse'}
       />
       <Card
         img={<RxHobbyKnife size="6rem" color="#9e0533" />}
         name={'Orthopedic Surgery'}
-        desc={'Kidney Transplant amet consectetur adipisicing elit'}
+        desc={'Specialist amet consectetur adipisicing elit. Conse'}
       />
     </div>
   );
