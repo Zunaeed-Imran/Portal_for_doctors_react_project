@@ -137,3 +137,17 @@ i will make a portal for Anesthesiologists doctor.
 - calender need to remove doctor page and set date in the appointment input filed.
 - also need to remove note form the docotr page and when click appointment button than show the note for doctor.
 - side-bar should not away when click one of the feature.
+
+### Mora style changes (idea by Toma Apu).
+- Hero Section need a video background or nice  background.
+- Navbar Button need nice Hover effect.
+- All button color should match background color.
+- Card Design should hover effect.
+- Patient dashboard background color match with home background color.
+- Review card background shadow color match with home background color.
+- Need to add a action button to scroll home.
+- Doctor card component need zoom hover effect.
+- Patient dashboard content alignment need to fix.
+- Appointment dashboard content alinemnt need to fix.
+- Checklist Design need some style to look good.
+- Patient dashboard All page need to design to look good.
