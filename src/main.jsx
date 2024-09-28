@@ -47,32 +47,38 @@ const router = createBrowserRouter([
         ],
       },
       {
+        path: '/patientDash',
+        element: <PatientDashboard />,
+        children: [
+          {
+            path: 'singleAppointment',
+            element: <Appointment />,
+          },
+          {
+            path: 'preAnesthesiaCheck',
+            element: <PreAnesthesiaCheck />,
+          },
+          {
+            path: 'remainderpatient',
+            element: <ReminderPatientFollowUp />,
+          },
+          {
+            path: 'patientMedicinReminder',
+            element: <PatientMedicinRemind />,
+          },
+          {
+            path: 'patientPreparationInstruction',
+            element: <PatientPraparationInstruction />,
+          },
+        ],
+      },
+      {
         path: '/DoctorP',
         element: <DoctorProfile />,
       },
       {
-        path: '/patientDash',
-        element: <PatientDashboard />,
-      },
-      {
         path: '/doctorCalender',
         element: <DoctorCalendar />,
-      },
-      {
-        path: '/preAnesthesiaCheck',
-        element: <PreAnesthesiaCheck />,
-      },
-      {
-        path: '/remainderpatient',
-        element: <ReminderPatientFollowUp />,
-      },
-      {
-        path: '/patientMedicinReminder',
-        element: <PatientMedicinRemind />,
-      },
-      {
-        path: '/patientPreparationInstruction',
-        element: <PatientPraparationInstruction />,
       },
     ],
   },
