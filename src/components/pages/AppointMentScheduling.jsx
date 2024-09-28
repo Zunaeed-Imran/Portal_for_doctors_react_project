@@ -1,4 +1,4 @@
-import { FcApproval, FcCalendar, FcCustomerSupport, FcDecision, FcDislike } from "react-icons/fc";
+import { FcApproval, FcCalendar } from "react-icons/fc";
 import { FaHistory } from "react-icons/fa";
 import { Link, Outlet } from "react-router-dom";
 
@@ -32,7 +32,7 @@ function AppointMentScheduling() {
                   className="btn-ghost text-xl"
                 >
                   <FcApproval />
-                  Quick Appointment
+                  Reschedule
                 </Link>
               </li>
               <li>
