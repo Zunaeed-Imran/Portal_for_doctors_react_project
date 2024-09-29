@@ -12,7 +12,7 @@ import Logo from './Logo';
 export default function Footer() {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 bg-slate-100">
+      <div className="grid grid-cols-1 md:grid-cols-2 bg-blue-100">
         <div className="min-h-[100px] pl-20 p-6">
           <a className="flex items-center gap-1 font-semibold">
             <FaUserDoctor size="2.5rem" color="#c74332" /> AnestheSure
@@ -27,7 +27,7 @@ export default function Footer() {
         </div>
         <div className="pl-20 pt-5 ">
           <EmergencyContact />
-          <Logo/>
+          <Logo />
         </div>
       </div>
 
