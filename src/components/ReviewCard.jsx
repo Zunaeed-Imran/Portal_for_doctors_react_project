@@ -15,20 +15,20 @@ import Marquee from 'react-fast-marquee';
 
 function ReviewCard() {
   return (
-    <Marquee pauseOnHover={true} gradient={true} gradientColor="#4dbdb2">
+    <Marquee pauseOnHover={true} gradient={true} gradientColor="#3C82F6">
       <div className="flex justify-center gap-3 items-center">
-        <Review img={manA} name={'Morgan Kosai'} />
-        <Review img={manB} name={'Caleb'} />
-        <Review img={manC} name={'Marie'} />
-        <Review img={manD} name={'Willie'} />
-        <Review img={manE} name={'Kerry'} />
-        <Review img={manF} name={'Elvis'} />
-        <Review img={manG} name={'Joan'} />
-        <Review img={manH} name={'Bertha'} />
-        <Review img={manI} name={'Valeria'} />
-        <Review img={manJ} name={'Windi Huynh'} />
-        <Review img={manK} name={'Rondy Pop'} />
-        <Review img={manL} name={'Genn'} />
+        <Review img={manA} name={"Morgan Kosai"} />
+        <Review img={manB} name={"Caleb"} />
+        <Review img={manC} name={"Marie"} />
+        <Review img={manD} name={"Willie"} />
+        <Review img={manE} name={"Kerry"} />
+        <Review img={manF} name={"Elvis"} />
+        <Review img={manG} name={"Joan"} />
+        <Review img={manH} name={"Bertha"} />
+        <Review img={manI} name={"Valeria"} />
+        <Review img={manJ} name={"Windi Huynh"} />
+        <Review img={manK} name={"Rondy Pop"} />
+        <Review img={manL} name={"Genn"} />
       </div>
     </Marquee>
   );
