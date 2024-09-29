@@ -2,12 +2,12 @@ import FormSubmitButton from "../sortComponent/FormSubmitButton";
 
 function Appointment() {
   return (
-    <div>
-      <div className="pt-20 flex items-center justify-center min-h-screen">
+    <div className="">
+      <div className="min-h-screen">
         <form action="" className="flex flex-col gap-2">
           <label
             htmlFor=""
-            className="text-2xl font-semibold"
+            className="text-2xl font-semibold m-5"
           >MAKE APPOINTMENT</label>
           <input
             type="text"

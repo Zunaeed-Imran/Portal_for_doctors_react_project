@@ -3,11 +3,11 @@
 
 function PreAnesthesiaCheck() {
   return (
-    <div className="pt-20">
+    <div className="ml-10">
       <div>
-        <p className="font-bold text-center">
+        <h1 className="font-bold text-center">
           This is pre Anesthesia Check list
-        </p>
+        </h1>
         <form className="font-bold text-center" action="">
           <div className="">
             <input
