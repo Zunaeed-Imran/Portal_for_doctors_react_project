@@ -2,65 +2,65 @@
 
 function PatientPraparationInstruction() {
   return (
-    <div className="pt-20">
+    <div className="ml-10">
       <div>
-        <p className="font-bold text-center">
+        <h1 className="font-bold text-3xl pb-2">
           Pre-Surgery Preparation Instructions
-        </p>
-        <div className="text-center">
-          <div className="">
-            <span className="label-text">Dear Imran,</span>
+        </h1>
+        <div className="">
+          <div className="pb-2">
+            <span className="label-text text-xl m-1">Dear Imran,</span>
           </div>
-          <div className="">
-            <span className="label-text">
+          <div className="pb-2">
+            <span className="label-text text-xl">
               As your surgery date approaches on [Date], please follow these
               instructions to ensure a smooth and safe procedure:
             </span>
           </div>
         </div>
-        <div className="text-center">
-          <p className="font-bold">1. Fasting Instructions:</p>
-          <p>
+        <div className="pb-2">
+          <p className="font-bold text-2xl">1. Fasting Instructions:</p>
+          <p className="text-xl m-1">
             No food or drink after midnight the night before your surgery. This
             includes water, gum, and candy.
           </p>
-          <p>
+          <p className="text-xl m-1">
             If instructed by your doctor, you may take specific medications with
             a small sip of water.
           </p>
         </div>
-        <div className="text-center">
-          <p className="font-bold">2. Medication Management:</p>
+        <div className="pb-2">
+          <p className="font-bold text-2xl m-1">2. Medication Management:</p>
           <p>
-            <li>
+            <li className="text-xl m-1">
               Blood thinners: If you are taking blood thinners (e.g., aspirin,
               warfarin), please stop taking them [X] days before surgery, as
               instructed by your doctor.
             </li>
-            <li>
+            <li className="text-xl m-1">
               Other Medications: Continue or stop other medications as advised
               by your surgeon. Contact us if you have any questions.
             </li>
           </p>
         </div>
-        <div className="text-center">
-          <p className="font-bold">3. Hygiene:</p>
+        <div className="pb-2">
+          <p className="font-bold text-2xl m-1">3. Hygiene:</p>
           <p>
-            <li>
+            <li className="text-xl m-1">
               Take a shower the night before and the morning of surgery using an
               antibacterial soap.
             </li>
-            <li>
+            <li className="text-xl m-1">
               Avoid using lotions, perfumes, or makeup on the day of surgery.
             </li>
           </p>
         </div>
-        <div className="text-center">
-          <p className="font-bold">4. What to Bring:</p>
+        <div className="pb-2">
+          <p className="font-bold text-2xl m-1">4. What to Bring:</p>
           <p>
-            <li>Insurance card and ID.</li>
-            <li>Any necessary forms or paperwork.</li>
-            <li>
+            <li className="text-xl m-1">Insurance card and ID.</li>
+            <li className="text-xl m-1">Any necessary forms or paperwork.</li>
+            <li className="text-xl m-1">
               Wear comfortable, loose clothing, and leave valuables at home.
             </li>
           </p>
