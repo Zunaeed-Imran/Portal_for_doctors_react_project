@@ -19,7 +19,9 @@ function Hero() {
             <p className="py-3 font-bold">
               Why people go to Anesthesiologists specilist?
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="btn bg-cyan-500 hover:bg-sky-600">
+              Get Started
+            </button>
             <p className="py-1">
               <b>Surgery: </b> Anesthesiologists play a crucial role in ensuring
               patients are comfortable and pain-free during surgical procedures.
