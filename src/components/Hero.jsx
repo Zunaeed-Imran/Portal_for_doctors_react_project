@@ -1,11 +1,13 @@
 
 import heroimg from "../assets/engin-akyurt-_HN4ZNgXH5w-unsplash.jpg";
+import heroBackimg from '../assets/arseny-togulev-DE6rYp1nAho-unsplash.jpg';
 
 function Hero() {
 
   return (
     <div>
-      <div className="hero bg-slate-300 min-h-screen pt-32 xl:pt-1">
+      <div className="hero min-h-screen pt-32 xl:pt-1">
+        <img src={heroBackimg} alt="" className="opacity-15" />
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={heroimg}
