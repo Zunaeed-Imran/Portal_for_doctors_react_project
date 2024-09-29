@@ -6,7 +6,7 @@ function Card({img, name, desc}) {
   return (
     <div>
       <div className="flex ">
-        <div className="card bg-blue-200 w-screen shadow-xl rounded  hover:bg-teal-200 hover:shadow-2xl transition-colors duration-300">
+        <div className="card bg-blue-200 w-screen shadow-xl rounded  hover:bg-blue-400 hover:shadow-2xl transition-colors duration-300">
           <figure className="pt-7">{img}</figure>
           <div className="card-body ">
             <h2 className="card-title">{name}</h2>
