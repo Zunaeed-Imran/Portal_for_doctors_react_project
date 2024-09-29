@@ -4,7 +4,7 @@ function Category() {
 
   return (
     <div>
-      <div className="hero bg-gray-200 min-h-screen">
+      <div className=" bg-blue-100 min-h-screen">
         <div className="hero-content flex-col lg:flex-row lg:justify-start lg:pl-1">
           <div>
             <h1 className="text-2xl font-bold">Overview</h1>
