@@ -4,7 +4,7 @@ import { Link, Outlet } from "react-router-dom";
 
 function AppointMentScheduling() {
   return (
-    <div className="bg-slate-300">
+    <div className="">
       <div className="pt-20">
         <div className="drawer lg:drawer-open">
           <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
