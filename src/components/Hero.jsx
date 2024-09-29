@@ -6,7 +6,7 @@ function Hero() {
 
   return (
     <div>
-      <div className="hero min-h-screen pt-32 xl:pt-1">
+      <div className="hero min-h-screen pt-32 xl:pt-1 bg-blue-100">
         <img src={heroBackimg} alt="" className="" />
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
@@ -34,7 +34,7 @@ function Hero() {
               conditions or postoperative pain. They use different techniques
               and medications to help patients manage pain effectively.
             </p>
-            <p className="py-1">
+            {/* <p className="py-1">
               <b>Labor and Delivery: </b> Anesthesiologists are often involved
               in providing pain relief during childbirth. They may administer
               epidurals or other forms of anesthesia to make the process more
@@ -42,7 +42,7 @@ function Hero() {
             </p>
             <p className="py-1">
               <b>And many more</b>
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
