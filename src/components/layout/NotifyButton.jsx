@@ -1,6 +1,6 @@
 import { toast, ToastContainer } from "react-toastify"
 import 'react-toastify/dist/ReactToastify.css';
-import { MdOutlineNotificationImportant } from 'react-icons/md';
+import { IoIosNotifications } from "react-icons/io";
 
 
 function NotifyButton() {
@@ -12,7 +12,7 @@ function NotifyButton() {
   return (
     <div>
       <button onClick={notofy}>
-        <MdOutlineNotificationImportant size={"1.5rem"}/>
+        <IoIosNotifications size={"1.5rem"}/>
       </button>
       <ToastContainer />
     </div>
