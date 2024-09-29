@@ -22,7 +22,7 @@ function PatientDashboard() {
               aria-label="close sidebar"
               className="drawer-overlay"
             ></label>
-            <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
+            <ul className="menu bg-blue-200 text-base-content min-h-full w-80 p-4">
               {/* Sidebar content here */}
               <li>
                 <div className="btn-ghost text-xl">
@@ -31,26 +31,26 @@ function PatientDashboard() {
                 </div>
               </li>
               <li>
-                <Link to={'singleAppointment'} className="btn-ghost text-xl">
+                <Link to={"singleAppointment"} className="btn-ghost text-xl">
                   <FcCableRelease />
                   Book Appointment
                 </Link>
               </li>
               <li>
-                <Link to={'preAnesthesiaCheck'} className="btn-ghost text-xl">
+                <Link to={"preAnesthesiaCheck"} className="btn-ghost text-xl">
                   <FcBiohazard />
                   Pre-Anesthesia Checklist
                 </Link>
               </li>
               <li>
-                <Link to={'remainderpatient'} className="btn-ghost text-xl">
+                <Link to={"remainderpatient"} className="btn-ghost text-xl">
                   <MdOutlineRememberMe />
                   Follow-up Reminder
                 </Link>
               </li>
               <li>
                 <Link
-                  to={'patientMedicinReminder'}
+                  to={"patientMedicinReminder"}
                   className="btn-ghost text-xl"
                 >
                   <PiPillDuotone />
@@ -59,7 +59,7 @@ function PatientDashboard() {
               </li>
               <li>
                 <Link
-                  to={'patientPreparationInstruction'}
+                  to={"patientPreparationInstruction"}
                   className="btn-ghost text-xl"
                 >
                   <FaAnkh />
