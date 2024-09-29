@@ -1,22 +1,22 @@
 
 import heroimg from "../assets/engin-akyurt-_HN4ZNgXH5w-unsplash.jpg";
-import heroBackimg from '../assets/arseny-togulev-DE6rYp1nAho-unsplash.jpg';
+import heroBackimg from "../assets/arseny-togulev_blour.jpg";
 
 function Hero() {
 
   return (
     <div>
       <div className="hero min-h-screen pt-32 xl:pt-1">
-        <img src={heroBackimg} alt="" className="opacity-15" />
+        <img src={heroBackimg} alt="" className="" />
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={heroimg}
             alt="image"
             className="max-w-sm rounded-lg shadow-2xl"
           />
-          <div>
+          <div className="text-white">
             <h1 className="text-5xl font-bold">Welcome To AnestheSure</h1>
-            <p className="py-3">
+            <p className="py-3 font-bold">
               Why people go to Anesthesiologists specilist?
             </p>
             <button className="btn btn-primary">Get Started</button>
