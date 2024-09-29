@@ -12,25 +12,25 @@ function Logo() {
     <div>
       <div className="min-h-[100px] flex items-center gap-1">
         <IconContext.Provider value={{ size: '2.5rem' }}>
-          <a href="#">
+          <a >
             <FaLinkedin color="#2f88cc" />
           </a>
-          <a href="#">
+          <a >
             <FaSquareXTwitter />
           </a>
-          <a href="#">
+          <a >
             <ImGithub />
           </a>
-          <a href="#">
+          <a >
             <FaGooglePlay color="#33d448" />
           </a>
-          <a href="#">
+          <a >
             <FaInstagramSquare color="#d802eb" />
           </a>
-          <a href="#">
+          <a >
             <FaFacebookSquare color="#3358b5" />
           </a>
-          <a href="#">
+          <a >
             <FaYoutube color="red" />
           </a>
         </IconContext.Provider>
