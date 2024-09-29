@@ -34,68 +34,68 @@ export default function Footer() {
       <div className="grid grid-cols-1 gap-6 md:grid-cols-3 p-9 px-20">
         <div className="min-h-[100px] flex flex-col gap-1">
           <h6 className="text-xl font-semibold">Actions</h6>
-          <a className="text-decoration-none text-black" href="#">
+          <a className="text-decoration-none text-black">
             <p>Appointment & Access</p>
           </a>
-          <a className="text-decoration-none text-black" href="#">
+          <a className="text-decoration-none text-black">
             <p>Accepted Insurance</p>
           </a>
-          <a className="text-decoration-none text-black" href="#">
+          <a className="text-decoration-none text-black">
             <p>Events Calendar</p>
           </a>
-          <a className="text-decoration-none text-black" href="#">
+          <a className="text-decoration-none text-black">
             <p>Finalcial Assistance</p>
           </a>
-          <a className="text-decoration-none text-black" href="#">
+          <a className="text-decoration-none text-black">
             <p>Give to Cleveland Clinic</p>
           </a>
-          <a className="text-decoration-none text-black" href="#">
+          <a className="text-decoration-none text-black">
             <p>Pay Your Bill Online</p>
           </a>
-          <a className="text-decoration-none text-black" href="#">
+          <a className="text-decoration-none text-black">
             <p>Refar a Patient</p>
           </a>
-          <a className="text-decoration-none text-black" href="#">
+          <a className="text-decoration-none text-black">
             <p>Phone Directory</p>
           </a>
-          <a className="text-decoration-none text-black" href="#">
+          <a className="text-decoration-none text-black">
             <p>Virtual Second Opinions</p>
           </a>
-          <a className="text-decoration-none text-black" href="#">
+          <a className="text-decoration-none text-black">
             <p>Virtual Visits</p>
           </a>
         </div>
 
         <div className="min-h-[100px] flex flex-col gap-1">
           <h6 className="text-xl font-semibold">About AnestheSure</h6>
-          <a className="text-decoration-none text-black" href="#">
+          <a className="text-decoration-none text-black">
             <p>About Us</p>
           </a>
-          <a className="text-decoration-none text-black" href="#">
+          <a className="text-decoration-none text-black">
             <p>Loactions</p>
           </a>
-          <a className="text-decoration-none text-black" href="#">
+          <a className="text-decoration-none text-black">
             <p>Quality & Patient Safety.</p>
           </a>
-          <a className="text-decoration-none text-black" href="#">
+          <a className="text-decoration-none text-black">
             <p>Office of Diversity & Inclusion</p>
           </a>
-          <a className="text-decoration-none text-black" href="#">
+          <a className="text-decoration-none text-black">
             <p>Patient Experience</p>
           </a>
-          <a className="text-decoration-none text-black" href="#">
+          <a className="text-decoration-none text-black">
             <p>Research & Innovations</p>
           </a>
-          <a className="text-decoration-none text-black" href="#">
+          <a className="text-decoration-none text-black">
             <p>Community & Commitment</p>
           </a>
-          <a className="text-decoration-none text-black" href="#">
+          <a className="text-decoration-none text-black">
             <p>Careers</p>
           </a>
-          <a className="text-decoration-none text-black" href="#">
+          <a className="text-decoration-none text-black">
             <p>For Employees</p>
           </a>
-          <a className="text-decoration-none text-black" href="#">
+          <a className="text-decoration-none text-black">
             <p>Resources for Medical Professionals</p>
           </a>
         </div>
