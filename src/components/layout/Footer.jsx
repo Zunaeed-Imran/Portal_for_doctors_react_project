@@ -31,7 +31,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 gap-6 md:grid-cols-3 p-9 px-20">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-3 p-9 px-20 bg-blue-200">
         <div className="min-h-[100px] flex flex-col gap-1">
           <h6 className="text-xl font-semibold">Actions</h6>
           <a className="text-decoration-none text-black">
