@@ -13,16 +13,16 @@ import { FaBars } from 'react-icons/fa6';
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between items-center fixed w-full bg-teal-400	 p-3 px-4 md:px-10 lg:px-20 z-50">
+    <div className="flex justify-between items-center fixed w-full bg-blue-500	 p-3 px-4 md:px-10 lg:px-20 z-50">
       <div className="flex items-center">
         <button className="md:hidden">
-          {' '}
+          {" "}
           {/* Hamburger menu visible on mobile */}
           <FaBars />
         </button>
-        <IconContext.Provider value={{ size: '1rem', color: '#f2f7f5' }}>
+        <IconContext.Provider value={{ size: "1rem", color: "#f2f7f5" }}>
           <div className="hidden md:flex gap-3">
-            {' '}
+            {" "}
             {/* Hidden on mobile */}
             <Link
               to="/"
