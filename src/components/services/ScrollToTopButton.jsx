@@ -1,3 +1,4 @@
+import { TbHandTwoFingers } from "react-icons/tb";
 
 
 function ScrollToTopButton() {
@@ -11,9 +12,9 @@ function ScrollToTopButton() {
   return (
     <button
       onClick={scrollToTop}
-      className="bg-blue-500 text-white p-2 rounded"
+      className="bg-blue-500 text-white p-2 rounded z-50 bg-fixed"
     >
-      Scroll to Top
+      <TbHandTwoFingers size={'1.5rem'} />
     </button>
   );
 }
