@@ -11,6 +11,7 @@ function App() {
 
   return (
     <>
+      <div className='relative'>
       <PageTitle title="Home" />
       <Hero />
       <Category />
@@ -18,6 +19,7 @@ function App() {
       <ReviewCard />
       <MessageReviewMessage />
       <Footer />
+      </div>
     </>
   );
 }
