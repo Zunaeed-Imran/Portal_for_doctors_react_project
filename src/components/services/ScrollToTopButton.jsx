@@ -12,7 +12,7 @@ function ScrollToTopButton() {
   return (
     <button
       onClick={scrollToTop}
-      className="bg-blue-500 text-white p-2 rounded z-50 absolute right-0"
+      className="bg-blue-500 text-white p-2 rounded z-50 absolute right-6 bottom-8"
     >
       <TbHandTwoFingers size={'1.5rem'} />
     </button>
