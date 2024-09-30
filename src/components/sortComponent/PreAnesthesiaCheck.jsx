@@ -10,21 +10,21 @@ function PreAnesthesiaCheck() {
         </h1>
         <div className="gap-3">
           <form className="font-bold gap-3" action="">
-            <div className="">
+            <div className="my-2">
               <input
                 type="text"
                 placeholder="Full Name"
                 className="input input-bordered w-full max-w-xs"
               />
             </div>
-            <div className="">
+            <div className="my-2">
               <input
-                type="number"
+                type="date"
                 placeholder="Date of birth"
                 className="input input-bordered w-full max-w-xs"
               />
             </div>
-            <div className="">
+            <div className="my-2">
               <input
                 type="number"
                 placeholder="Medical record Number"
@@ -104,7 +104,7 @@ function PreAnesthesiaCheck() {
             Confirm the availability of the surgical team and anesthesiologist
           </p>
         </div>
-        <div>
+        <div className="p-2">
           <button className="btn btn-active btn-accent">Submit</button>
         </div>
       </div>
