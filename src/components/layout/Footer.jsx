@@ -5,7 +5,8 @@ import { FaPhone } from 'react-icons/fa';
 import { GiLifeSupport } from 'react-icons/gi';
 import EmergencyContact from './EmergencyContact';
 import Logo from './Logo';
-import ScrollToTopButton from '../services/ScrollToTopButton';
+// import ScrollToTopButton from '../services/ScrollToTopButton';
+import ScrollToTopButton2 from '../services/ScrollToTopButton2';
 
 
 
@@ -127,7 +128,7 @@ export default function Footer() {
       <div className="bg-gray-900 text-white">
         <hr />
         <div className="flex justify-center p-3">
-          <ScrollToTopButton/>
+          <ScrollToTopButton2/>
           <p>Copyright@AnestheSure2024.</p>
         </div>
       </div>

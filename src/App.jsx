@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <div className='relative'>
+      <div>
       <PageTitle title="Home" />
       <Hero />
       <Category />
