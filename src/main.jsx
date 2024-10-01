@@ -17,6 +17,7 @@ import PreAnesthesiaCheck from './components/sortComponent/PreAnesthesiaCheck.js
 import PatientMedicinRemind from './components/sortComponent/PatientMedicinRemind.jsx'
 import PatientPraparationInstruction from './components/sortComponent/PatientPraparationInstruction.jsx'
 import AboutUs from './components/pages/AboutUs.jsx'
+import Employee from './components/pages/Employee.jsx'
 
 
 const router = createBrowserRouter([
@@ -84,6 +85,10 @@ const router = createBrowserRouter([
       {
         path: '/aboutus',
         element: <AboutUs />,
+      },
+      {
+        path: '/employee',
+        element: <Employee />,
       },
     ],
   },

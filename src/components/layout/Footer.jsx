@@ -95,9 +95,9 @@ export default function Footer() {
           <a className="text-decoration-none text-black">
             <p>Careers</p>
           </a>
-          <a className="text-decoration-none text-black">
-            <p>For Employees</p>
-          </a>
+          <Link className="text-decoration-none text-black" to="/employee">
+            <p>Employees</p>
+          </Link>
           <a className="text-decoration-none text-black">
             <p>Resources for Medical Professionals</p>
           </a>
