@@ -161,5 +161,5 @@ i will make a portal for Anesthesiologists doctor.
 - Make Sign in page.
 - Make Admin Login page.
 - Make Admin Dashboard.
-- In admin dashboard page add content make appointment, docotr info add.
-- Reschedule need a pop Up.
+- In admin dashboard page add content make appointment, doctor info add.
+- Reschedule need a pop-up.
