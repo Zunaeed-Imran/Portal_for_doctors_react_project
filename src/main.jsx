@@ -20,6 +20,7 @@ import AboutUs from './components/pages/AboutUs.jsx'
 import Employee from './components/pages/Employee.jsx'
 import Login from './components/pages/Login.jsx'
 import Signin from './components/pages/Signin.jsx'
+import AdminLigin from './components/pages/AdminLigin.jsx'
 
 
 const router = createBrowserRouter([
@@ -99,6 +100,10 @@ const router = createBrowserRouter([
       {
         path: "/signin",
         element: <Signin />,
+      },
+      {
+        path: "/adminlogin",
+        element: <AdminLigin />,
       },
     ],
   },

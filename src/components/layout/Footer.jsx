@@ -37,9 +37,9 @@ export default function Footer() {
       <div className="grid grid-cols-1 gap-6 md:grid-cols-3 p-9 px-20 bg-blue-200">
         <div className="min-h-[100px] flex flex-col gap-1">
           <h6 className="text-xl font-semibold">Actions</h6>
-          <a className="text-decoration-none text-black">
-            <p>Appointment & Access</p>
-          </a>
+          <Link className="text-decoration-none text-black" to="/adminlogin">
+            <p>Admin-Log-in</p>
+          </Link>
           <Link className="text-decoration-none text-black" to="/login">
             <p>Log-in</p>
           </Link>
@@ -50,7 +50,7 @@ export default function Footer() {
             <p>Finalcial Assistance</p>
           </a>
           <a className="text-decoration-none text-black">
-            <p>Give to Cleveland Clinic</p>
+            <p>Appointment & Access</p>
           </a>
           <a className="text-decoration-none text-black">
             <p>Pay Your Bill Online</p>
