@@ -40,9 +40,9 @@ export default function Footer() {
           <a className="text-decoration-none text-black">
             <p>Appointment & Access</p>
           </a>
-          <a className="text-decoration-none text-black">
-            <p>Accepted Insurance</p>
-          </a>
+          <Link className="text-decoration-none text-black" to="/login">
+            <p>Log-in</p>
+          </Link>
           <a className="text-decoration-none text-black">
             <p>Events Calendar</p>
           </a>

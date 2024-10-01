@@ -18,6 +18,7 @@ import PatientMedicinRemind from './components/sortComponent/PatientMedicinRemin
 import PatientPraparationInstruction from './components/sortComponent/PatientPraparationInstruction.jsx'
 import AboutUs from './components/pages/AboutUs.jsx'
 import Employee from './components/pages/Employee.jsx'
+import Login from './components/pages/Login.jsx'
 
 
 const router = createBrowserRouter([
@@ -89,6 +90,10 @@ const router = createBrowserRouter([
       {
         path: '/employee',
         element: <Employee />,
+      },
+      {
+        path: '/login',
+        element: <Login />,
       },
     ],
   },
