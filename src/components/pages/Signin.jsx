@@ -1,22 +1,22 @@
-import { Link } from "react-router-dom";
+import React from 'react'
 
-
-function Login() {
+function Signin() {
   return (
-    <div className="pt-20">
+    <div className='pt-20'>
       <div className="pl-10">
-        <h1 className="text-3xl font-bold">User Login</h1>
+        <h1 className="text-3xl font-bold">Sing Up with new Account</h1>
         <form action="" className="flex flex-col">
           <label htmlFor="">Email</label>
           <input type="text" name="email" placeholder="Email" />
           <label htmlFor="">Password</label>
           <input type="password" name="password" placeholder="Password" />
-          <button className="btn">Login</button>
-          <Link className="btn" to='/signin'>Sign-in</Link>
+          <label htmlFor="">Re-Type-Password</label>
+          <input type="password" name="password" placeholder="Password" />
+          <button className="btn">Sign-in</button>
         </form>
       </div>
     </div>
   );
 }
 
-export default Login
+export default Signin

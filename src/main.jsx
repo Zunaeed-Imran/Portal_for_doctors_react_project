@@ -19,81 +19,86 @@ import PatientPraparationInstruction from './components/sortComponent/PatientPra
 import AboutUs from './components/pages/AboutUs.jsx'
 import Employee from './components/pages/Employee.jsx'
 import Login from './components/pages/Login.jsx'
+import Signin from './components/pages/Signin.jsx'
 
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <MainLayout />,
     children: [
       {
-        path: '/',
+        path: "/",
         element: <App />,
         errorElement: <NotFoundpage />,
       },
       {
-        path: '/appointment',
+        path: "/appointment",
         element: <AppointMentScheduling />,
         children: [
           {
-            path: 'singleAppointment',
+            path: "singleAppointment",
             element: <Appointment />,
           },
           {
-            path: 'quickAppointmentPreTime',
+            path: "quickAppointmentPreTime",
             element: <QuickAppointmentPreTime />,
           },
           {
-            path: 'paitentHistory',
+            path: "paitentHistory",
             element: <PatientHistory />,
           },
         ],
       },
       {
-        path: '/patientDash',
+        path: "/patientDash",
         element: <PatientDashboard />,
         children: [
           {
-            path: 'singleAppointment',
+            path: "singleAppointment",
             element: <Appointment />,
           },
           {
-            path: 'preAnesthesiaCheck',
+            path: "preAnesthesiaCheck",
             element: <PreAnesthesiaCheck />,
           },
           {
-            path: 'remainderpatient',
+            path: "remainderpatient",
             element: <ReminderPatientFollowUp />,
           },
           {
-            path: 'patientMedicinReminder',
+            path: "patientMedicinReminder",
             element: <PatientMedicinRemind />,
           },
           {
-            path: 'patientPreparationInstruction',
+            path: "patientPreparationInstruction",
             element: <PatientPraparationInstruction />,
           },
         ],
       },
       {
-        path: '/DoctorP',
+        path: "/DoctorP",
         element: <DoctorProfile />,
       },
       {
-        path: '/doctorCalender',
+        path: "/doctorCalender",
         element: <DoctorCalendar />,
       },
       {
-        path: '/aboutus',
+        path: "/aboutus",
         element: <AboutUs />,
       },
       {
-        path: '/employee',
+        path: "/employee",
         element: <Employee />,
       },
       {
-        path: '/login',
+        path: "/login",
         element: <Login />,
+      },
+      {
+        path: "/signin",
+        element: <Signin />,
       },
     ],
   },
