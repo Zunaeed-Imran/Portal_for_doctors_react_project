@@ -151,3 +151,15 @@ i will make a portal for Anesthesiologists doctor.
 - Appointment dashboard content alinemnt need to fix.
 - Checklist Design need some style to look good.
 - Patient dashboard All page need to design to look good.
+
+### More task Add by Toma Apu.
+- Make about-us page.
+- Connect button with tha about us page.
+- Make Employee page.
+- Connect button with Employee page.
+- Make Login page.
+- Make Sign in page.
+- Make Admin Login page.
+- Make Admin Dashboard.
+- In admin dashboard page add content make appointment, docotr info add.
+- Reschedule need a pop Up.
