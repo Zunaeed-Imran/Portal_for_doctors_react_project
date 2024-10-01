@@ -7,6 +7,7 @@ import EmergencyContact from './EmergencyContact';
 import Logo from './Logo';
 // import ScrollToTopButton from '../services/ScrollToTopButton';
 import ScrollToTopButton2 from '../services/ScrollToTopButton2';
+import { Link } from 'react-router-dom';
 
 
 
@@ -70,9 +71,9 @@ export default function Footer() {
 
         <div className="min-h-[100px] flex flex-col gap-1">
           <h6 className="text-xl font-semibold">About AnestheSure</h6>
-          <a className="text-decoration-none text-black">
+          <Link className="text-decoration-none text-black" to="/aboutus">
             <p>About Us</p>
-          </a>
+          </Link>
           <a className="text-decoration-none text-black">
             <p>Loactions</p>
           </a>
@@ -128,7 +129,7 @@ export default function Footer() {
       <div className="bg-gray-900 text-white">
         <hr />
         <div className="flex justify-center p-3">
-          <ScrollToTopButton2/>
+          <ScrollToTopButton2 />
           <p>Copyright@AnestheSure2024.</p>
         </div>
       </div>

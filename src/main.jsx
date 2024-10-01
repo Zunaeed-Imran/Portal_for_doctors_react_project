@@ -16,6 +16,7 @@ import ReminderPatientFollowUp from './components/sortComponent/ReminderPatientF
 import PreAnesthesiaCheck from './components/sortComponent/PreAnesthesiaCheck.jsx'
 import PatientMedicinRemind from './components/sortComponent/PatientMedicinRemind.jsx'
 import PatientPraparationInstruction from './components/sortComponent/PatientPraparationInstruction.jsx'
+import AboutUs from './components/pages/AboutUs.jsx'
 
 
 const router = createBrowserRouter([
@@ -79,6 +80,10 @@ const router = createBrowserRouter([
       {
         path: '/doctorCalender',
         element: <DoctorCalendar />,
+      },
+      {
+        path: '/aboutus',
+        element: <AboutUs />,
       },
     ],
   },
