@@ -1,6 +1,9 @@
 // this page is for Quick Appointment Booking with Pre-set Time Slots.
 // or Reschedule the appointment.
 
+import RescheduleButton from "../button/RescheduleButton";
+
+
 function QuickAppointmentPreTime() {
   return (
     <div className="pt-20">
@@ -19,7 +22,7 @@ function QuickAppointmentPreTime() {
             <option>11:00–11:30</option>
           </select>
           <div className="card-actions justify-end">
-            <button className="btn btn-primary">Reschedule</button>
+            <RescheduleButton/>
           </div>
         </div>
       </div>
