@@ -3,17 +3,33 @@ import { Link } from "react-router-dom";
 
 function Login() {
   return (
-    <div className="pt-20">
-      <div className="pl-10">
-        <h1 className="text-3xl font-bold">User Login</h1>
-        <form action="" className="flex flex-col">
-          <label htmlFor="">Email</label>
-          <input type="text" name="email" placeholder="Email" />
-          <label htmlFor="">Password</label>
-          <input type="password" name="password" placeholder="Password" />
-          <button className="btn">Login</button>
-          <Link className="btn" to='/signin'>Sign-in</Link>
+    <div className="pt-20 hero">
+      <div className="min-h-screen">
+        <form action="" className="flex flex-col gap-2">
+          <label htmlFor="" className="text-2xl font-semibold m-5">
+            User Login
+          </label>
+          <input
+            type="email"
+            placeholder="Email"
+            className="input input-bordered w-full max-w-xs"
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            className="input input-bordered w-full max-w-xs"
+          />
+          <div>
+            <button className="btn btn-primary">Login</button>
+          </div>
         </form>
+        <div className="py-5">
+          <p>Dont have account? 
+            <Link className="link link-primary" to="/signin">
+              Sign-in
+            </Link>
+          </p>
+        </div>
       </div>
     </div>
   );
