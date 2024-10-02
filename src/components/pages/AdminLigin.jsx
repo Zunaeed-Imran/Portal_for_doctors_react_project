@@ -1,18 +1,33 @@
-import React from 'react'
+import { Link } from "react-router-dom";
+
 
 function AdminLigin() {
   return (
-    <div className="pt-20">
-      <div className="pl-10">
-        <h1 className="text-3xl font-bold">Admin login Page</h1>
-        <form action="" className="flex flex-col">
-          <label htmlFor="">Email</label>
-          <input type="text" name="email" placeholder="Email" />
-          <label htmlFor="">Password</label>
-          <input type="password" name="password" placeholder="Password" />
-          <button className="btn">Log-in</button>
-        </form>
-      </div>
+    <div className="">
+      <div className="pt-20 hero">
+        <div className="min-h-screen">
+          <form action="" className="flex flex-col gap-2">
+            <label htmlFor="" className="text-2xl font-semibold m-5">
+              Admin login Page
+            </label>
+            <input
+              type="email"
+              placeholder="Email"
+              className="input input-bordered w-full max-w-xs"
+            />
+            <input
+              type="password"
+              placeholder="Password"
+              className="input input-bordered w-full max-w-xs"
+            />
+            <div>
+              <Link to="/admindashboard" className="btn btn-primary">
+                Log-in
+              </Link>
+            </div>
+          </form>
+        </div>
+      </div>S
     </div>
   );
 }
