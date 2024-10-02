@@ -27,7 +27,7 @@ function AdminLigin() {
             </div>
           </form>
         </div>
-      </div>S
+      </div>
     </div>
   );
 }
