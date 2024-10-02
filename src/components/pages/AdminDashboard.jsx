@@ -1,3 +1,5 @@
+// in the style i sue 'Drawer' from  daisyUI
+
 import { FaHistory } from "react-icons/fa";
 import { FcCalendar } from "react-icons/fc";
 import { Link, Outlet } from "react-router-dom";

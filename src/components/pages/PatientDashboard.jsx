@@ -1,10 +1,11 @@
+// in the style i sue 'Drawer' from  daisyUI
+
 import { FaAnkh } from 'react-icons/fa';
 import { FcApproval, FcBiohazard } from 'react-icons/fc';
 import { FcCableRelease } from 'react-icons/fc';
 import { MdOutlineRememberMe } from 'react-icons/md';
 import { PiPillDuotone } from 'react-icons/pi';
 import { Link, Outlet } from 'react-router-dom';
-
 
 function PatientDashboard() {
   return (
@@ -31,26 +32,26 @@ function PatientDashboard() {
                 </div>
               </li>
               <li>
-                <Link to={"singleAppointment"} className="btn-ghost text-xl">
+                <Link to={'singleAppointment'} className="btn-ghost text-xl">
                   <FcCableRelease />
                   Book Appointment
                 </Link>
               </li>
               <li>
-                <Link to={"preAnesthesiaCheck"} className="btn-ghost text-xl">
+                <Link to={'preAnesthesiaCheck'} className="btn-ghost text-xl">
                   <FcBiohazard />
                   Pre-Anesthesia Checklist
                 </Link>
               </li>
               <li>
-                <Link to={"remainderpatient"} className="btn-ghost text-xl">
+                <Link to={'remainderpatient'} className="btn-ghost text-xl">
                   <MdOutlineRememberMe />
                   Follow-up Reminder
                 </Link>
               </li>
               <li>
                 <Link
-                  to={"patientMedicinReminder"}
+                  to={'patientMedicinReminder'}
                   className="btn-ghost text-xl"
                 >
                   <PiPillDuotone />
@@ -59,7 +60,7 @@ function PatientDashboard() {
               </li>
               <li>
                 <Link
-                  to={"patientPreparationInstruction"}
+                  to={'patientPreparationInstruction'}
                   className="btn-ghost text-xl"
                 >
                   <FaAnkh />
@@ -74,4 +75,4 @@ function PatientDashboard() {
   );
 }
 
-export default PatientDashboard
+export default PatientDashboard;
