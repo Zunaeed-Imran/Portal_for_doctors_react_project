@@ -1,6 +1,6 @@
 // in the style i sue 'Drawer' from  daisyUI
 
-import { FaHistory } from "react-icons/fa";
+import { FaUserDoctor } from "react-icons/fa6";
 import { FcCalendar } from "react-icons/fc";
 import { Link, Outlet } from "react-router-dom";
 
@@ -24,14 +24,14 @@ function AdminDashboard() {
             <ul className="menu bg-blue-200 text-base-content min-h-full w-80 p-4">
               {/* Sidebar content here */}
               <li>
-                <Link to='singleAppointment' className="btn-ghost text-xl">
+                <Link to="singleAppointment" className="btn-ghost text-xl">
                   <FcCalendar />
                   Appointment
                 </Link>
               </li>
               <li>
                 <Link to="DoctorP" className="btn-ghost text-xl">
-                  <FaHistory />
+                  <FaUserDoctor />
                   Doctor Profile
                 </Link>
               </li>
