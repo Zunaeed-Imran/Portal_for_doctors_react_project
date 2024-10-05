@@ -1,4 +1,4 @@
-// in the style i sue 'Drawer' from  daisyUI
+// in the style i use 'Drawer' from  daisyUI
 
 import { FaUserDoctor } from "react-icons/fa6";
 import { FcCalendar } from "react-icons/fc";
