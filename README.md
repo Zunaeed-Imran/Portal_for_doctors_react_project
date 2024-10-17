@@ -163,3 +163,10 @@ i will make a portal for Anesthesiologists doctor.
 - Make Admin Dashboard.
 - In admin dashboard page add content make appointment, doctor info add.
 - Reschedule need a pop-up.
+
+### More task Add by Julius Bhai in this Project.
+- in the navbar button admin and search button need to have a gap.
+- in the catagory section also need right side padding.
+- i can use in the catagorys ection `fluid width`.
+- review one card have no gap, need to fix.
+- message section need to responsive in all device.
