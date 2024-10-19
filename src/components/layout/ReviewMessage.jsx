@@ -4,7 +4,7 @@ import FormSubmitButton from "../sortComponent/FormSubmitButton";
 function ReviewMessage() {
   return (
     <div className=" justify-center md:p-10">
-      <p className="font-bold ">This is review message</p>
+      <p className="font-bold px-10">This is review message</p>
       <form action="" className="p-2 m-5">
         <input
           type="text"

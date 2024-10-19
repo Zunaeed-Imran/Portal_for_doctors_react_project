@@ -4,7 +4,7 @@ import FormSubmitButton from "../sortComponent/FormSubmitButton";
 function MessageDoctor() {
   return (
     <div className="md:p-10">
-      <p className="font-bold justify-center">You can message a Doctor</p>
+      <p className="font-bold px-10">You can message a Doctor</p>
       <div className="p-2 m-5">
         <form action="" className="">
           <input
