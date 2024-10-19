@@ -171,3 +171,11 @@ i will make a portal for Anesthesiologists doctor.
 - review one card have no gap, need to fix.
 - message section need to responsive in all device.
 - also Hero Section need to responsive.
+
+
+### Feedback on Doctor Portal Presentation.
+- Doctor list card alignment is not right.
+- Email placeholder shows @email.
+- Use office contact number and email and address.
+- Should not have space between navbar and sidebar.
+- Add time input or use date time input in appointment form.
