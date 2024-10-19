@@ -16,7 +16,7 @@ import Marquee from 'react-fast-marquee';
 function ReviewCard() {
   return (
     <Marquee pauseOnHover={true} gradient={true} gradientColor="#3C82F6">
-      <div className="flex justify-center gap-3 items-center">
+      <div className="flex justify-center items-center">
         <Review img={manA} name={"Morgan Kosai"} />
         <Review img={manB} name={"Caleb"} />
         <Review img={manC} name={"Marie"} />
