@@ -7,7 +7,7 @@ function Category() {
       <div className="px-7 bg-blue-100 min-h-screen">
         <div className="hero-content flex-col lg:flex-row lg:justify-start lg:pl-1">
           <div>
-            <h1 className="text-2xl font-bold">Overview</h1>
+            <h1 className="text-2xl font-bold pb-3">Overview</h1>
             <h1 className="text-xl font-bold">What is an anesthesiologist?</h1>
             <p className="py-4">
               An anesthesiologist is a medical doctor who directs your
