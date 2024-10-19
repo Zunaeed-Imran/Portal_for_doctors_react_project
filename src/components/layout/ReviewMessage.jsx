@@ -3,7 +3,7 @@ import FormSubmitButton from "../sortComponent/FormSubmitButton";
 
 function ReviewMessage() {
   return (
-    <div className="p-10">
+    <div className=" justify-center md:p-10">
       <p className="font-bold ">This is review message</p>
       <form action="" className="p-2 m-5">
         <input
@@ -12,7 +12,7 @@ function ReviewMessage() {
           className="input input-bordered w-full max-w-xs my-2"
         />{' '}
         <textarea
-          className="textarea textarea-bordered w-80 h-32"
+          className="textarea textarea-bordered w-full max-w-xs my-1"
           placeholder="Tell us what yor experiance is!!"
         ></textarea>
         <br />
@@ -30,7 +30,7 @@ function ReviewMessage() {
         </div>
         <br />
         <div>
-          <FormSubmitButton/>
+          <FormSubmitButton />
         </div>
       </form>
     </div>
