@@ -179,3 +179,9 @@ i will make a portal for Anesthesiologists doctor.
 - Use office contact number and email and address.
 - Should not have space between navbar and sidebar.
 - Add time input or use date time input in appointment form.
+
+<!-- user -> waht teacher can do what -->
+<!-- student detais like what class he is now -->
+
+<!-- admin is one school or more than one school. -->
+<!--  -->
