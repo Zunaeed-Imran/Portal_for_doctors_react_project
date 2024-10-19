@@ -16,13 +16,13 @@ export default function Navbar() {
     <div className="flex justify-between items-center fixed w-full bg-blue-500	 p-3 px-4 md:px-10 lg:px-20 z-50">
       <div className="flex items-center">
         <button className="md:hidden">
-          {" "}
+          {' '}
           {/* Hamburger menu visible on mobile */}
           <FaBars />
         </button>
-        <IconContext.Provider value={{ size: "1rem", color: "#f2f7f5" }}>
+        <IconContext.Provider value={{ size: '1rem', color: '#f2f7f5' }}>
           <div className="hidden md:flex gap-3">
-            {" "}
+            {' '}
             {/* Hidden on mobile */}
             <Link
               to="/"
@@ -60,12 +60,14 @@ export default function Navbar() {
               Admin
             </Link>
           </div>
-          <Search />
-          <button className="btn btn-ghost btn-circle">
-            <div className="indicator">
-              <NotifyButton />
-            </div>
-          </button>
+          <div className='flex px-3'>
+            <Search />
+            <button className="btn btn-ghost btn-circle px-4 py-2">
+              <div className="indicator">
+                <NotifyButton />
+              </div>
+            </button>
+          </div>
         </IconContext.Provider>
       </div>
     </div>

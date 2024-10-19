@@ -170,3 +170,4 @@ i will make a portal for Anesthesiologists doctor.
 - i can use in the catagorys ection `fluid width`.
 - review one card have no gap, need to fix.
 - message section need to responsive in all device.
+- also Hero Section need to responsive.
