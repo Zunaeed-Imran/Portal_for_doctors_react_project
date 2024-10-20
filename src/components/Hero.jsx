@@ -6,7 +6,7 @@ function Hero() {
 
   return (
     <div>
-      <div className="hero min-h-screen pt-32 xl:pt-1 bg-blue-100">
+      <div className="hero min-h-screen pt-32 xl:pt-1 bg-[#0C2553]">
         <img src={heroBackimg} alt="" className="" />
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
