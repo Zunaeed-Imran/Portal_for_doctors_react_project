@@ -107,10 +107,10 @@ export default function Footer() {
           <h6 className="text-xl font-semibold">ADDRESS</h6>
 
           <p className="flex items-center gap-2">
-            <MdAttachEmail color="#1d54de" /> yourmail@gmail.com
+            <MdAttachEmail color="#1d54de" /> contact@itlogiko.com
           </p>
           <p className="flex items-center gap-2">
-            <FaPhone color="#36de2a" /> 01777-888899
+            <FaPhone color="#36de2a" /> 01804468806
           </p>
           <p className="flex items-center gap-2">
             <GiLifeSupport color="#ff0019" /> 5695+5R6, Nowapara Rd, Jashore.
