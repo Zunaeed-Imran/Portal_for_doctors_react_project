@@ -22,13 +22,13 @@ function Hero() {
             <button className="btn bg-cyan-500 hover:bg-sky-600">
               Get Started
             </button>
-            <p className="py-1 pt-32 md:pt-1 text-black md:text-white">
+            <p className="py-1">
               <b>Surgery: </b> Anesthesiologists play a crucial role in ensuring
               patients are comfortable and pain-free during surgical procedures.
               They administer anesthesia and monitor the patients vital signs
               throughout the surgery.
             </p>
-            <p className="py-1 text-black md:text-white">
+            <p className="py-1 ">
               <b>Pain Management:</b> Anesthesiologists are involved in managing
               pain in various medical situations, such as chronic pain
               conditions or postoperative pain. They use different techniques
