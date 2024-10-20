@@ -8,7 +8,7 @@ function AdminDashboard() {
 
   return (
     <div>
-      <div className="pt-20">
+      <div className="pt-16">
         <div className="drawer lg:drawer-open">
           <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content flex flex-col items-center justify-center">
