@@ -2,7 +2,7 @@
 
 function ReminderPatientFollowUp() {
   return (
-    <div className="ml-10">
+    <div className="ml-10 pt-10">
       <div>
         <h1 className="text-3xl font-bold pb-2">Follow-up Reminder System Page.</h1>
         <div className="">

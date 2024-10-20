@@ -2,7 +2,7 @@
 
 function PatientPraparationInstruction() {
   return (
-    <div className="ml-10">
+    <div className="ml-10 pt-10">
       <div>
         <h1 className="font-bold text-3xl pb-2">
           Pre-Surgery Preparation Instructions

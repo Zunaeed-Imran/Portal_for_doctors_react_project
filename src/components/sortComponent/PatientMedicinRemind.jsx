@@ -3,7 +3,7 @@
 
 function PatientMedicinRemind() {
   return (
-    <div className="ml-10">
+    <div className="ml-10 pt-10">
       <div>
         <p className="text-3xl font-bold pb-2">Weekly Medication</p>
         <div className="">

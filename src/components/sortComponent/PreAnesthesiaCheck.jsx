@@ -3,7 +3,7 @@
 
 function PreAnesthesiaCheck() {
   return (
-    <div className="">
+    <div className="pt-7">
       <div>
         <h1 className="font-bold text-3xl mb-3">
           This is pre Anesthesia Check list
