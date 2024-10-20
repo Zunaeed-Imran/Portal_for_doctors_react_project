@@ -19,7 +19,7 @@ function MessageDoctor() {
           />{' '}
           <input
             type="email"
-            placeholder="@email"
+            placeholder="Email"
             className="input input-bordered w-full max-w-xs my-1"
           />{' '}
           <textarea
