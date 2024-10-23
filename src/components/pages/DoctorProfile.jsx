@@ -5,10 +5,12 @@ import doctor4 from "../../assets/avater/4.jpg";
 import Footer from "../layout/Footer";
 import Search from "../layout/Search";
 import DoctorAvailability from "../layout/DoctorAvailability";
+import PageTitle from "../PageTitle";
 
 function DoctorProfile() {
   return (
     <div>
+      <PageTitle title='Doctors'/>
       <div className="grid grid-cols-3 gap-3 pt-20">
         <div className="col-span-2">
           <Search />

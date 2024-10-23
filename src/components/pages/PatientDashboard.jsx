@@ -6,10 +6,12 @@ import { FcCableRelease } from 'react-icons/fc';
 import { MdOutlineRememberMe } from 'react-icons/md';
 import { PiPillDuotone } from 'react-icons/pi';
 import { Link, Outlet } from 'react-router-dom';
+import PageTitle from '../PageTitle';
 
 function PatientDashboard() {
   return (
     <div>
+      <PageTitle title={'Patient'}/>
       <div className="pt-16">
         <div className="drawer lg:drawer-open">
           <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />

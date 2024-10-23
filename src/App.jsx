@@ -12,13 +12,13 @@ function App() {
   return (
     <>
       <div>
-      <PageTitle title="Home" />
-      <Hero />
-      <Category />
-      <CardCard />
-      <ReviewCard />
-      <MessageReviewMessage />
-      <Footer />
+        <PageTitle title="AnestheSure" />
+        <Hero />
+        <Category />
+        <CardCard />
+        <ReviewCard />
+        <MessageReviewMessage />
+        <Footer />
       </div>
     </>
   );

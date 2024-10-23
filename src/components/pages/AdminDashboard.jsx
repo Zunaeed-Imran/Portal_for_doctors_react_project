@@ -3,11 +3,13 @@
 import { FaUserDoctor } from "react-icons/fa6";
 import { FcCalendar } from "react-icons/fc";
 import { Link, Outlet } from "react-router-dom";
+import PageTitle from "../PageTitle";
 
 function AdminDashboard() {
 
   return (
     <div>
+      <PageTitle title={'Admin'}/>
       <div className="pt-16">
         <div className="drawer lg:drawer-open">
           <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />

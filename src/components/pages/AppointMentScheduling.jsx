@@ -3,10 +3,12 @@
 import { FcApproval, FcCalendar } from 'react-icons/fc';
 import { FaHistory } from 'react-icons/fa';
 import { Link, Outlet } from 'react-router-dom';
+import PageTitle from '../PageTitle';
 
 function AppointMentScheduling() {
   return (
     <div className="">
+      <PageTitle title={'Appointment'}/>
       <div className="pt-16">
         <div className="drawer lg:drawer-open">
           <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
