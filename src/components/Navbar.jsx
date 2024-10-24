@@ -7,21 +7,34 @@ import NotifyButton from './layout/NotifyButton';
 import { FcButtingIn } from 'react-icons/fc';
 
 import { FaBars } from 'react-icons/fa6';
+import { useState } from 'react';
 
 
 
 
 export default function Navbar() {
+
+// toggle button fucntion setting for mobile
+  const [mobile, setMobile] = useState(false);
+  
+  const toggleMobile = () => {
+    setMobile(!mobile);
+  }
+
   return (
     <div className="flex justify-between items-center fixed w-full bg-blue-500	 p-3 px-4 md:px-10 lg:px-20 z-50">
       <div className="flex items-center">
-        <button className="md:hidden">
+        <button className="md:hidden" onClick={toggleMobile}>
           {' '}
           {/* Hamburger menu visible on mobile */}
           <FaBars />
         </button>
         <IconContext.Provider value={{ size: '1rem', color: '#f2f7f5' }}>
-          <div className="hidden md:flex gap-3">
+          <div
+            className={`${mobile ? 'flex' : 'hidden'}
+            md:flex gap-3
+            `}
+          >
             {' '}
             {/* Hidden on mobile */}
             <Link
@@ -60,7 +73,7 @@ export default function Navbar() {
               Admin
             </Link>
           </div>
-          <div className='flex px-3'>
+          <div className="flex px-3">
             <Search />
             <button className="btn btn-ghost btn-circle px-4 py-2">
               <div className="indicator">
