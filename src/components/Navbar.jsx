@@ -32,7 +32,7 @@ export default function Navbar() {
         <IconContext.Provider value={{ size: '1rem', color: '#f2f7f5' }}>
           <div
             className={`${mobile ? 'flex' : 'hidden'}
-            md:flex gap-3
+            flex-col md:flex md:flex-row gap-3
             `}
           >
             {' '}
