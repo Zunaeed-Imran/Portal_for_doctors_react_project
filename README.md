@@ -173,7 +173,7 @@ i will make a portal for Anesthesiologists doctor.
 - also Hero Section need to responsive.
 
 
-### Feedback on Doctor Portal Presentation.
+### Feedback on Doctor Portal Presentation. (all done from here)
 - Doctor list card alignment is not right.
 - Email placeholder shows @email.
 - Use office contact number and email and address.
