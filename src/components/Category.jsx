@@ -8,13 +8,17 @@ function Category() {
         <div className="hero-content flex-col lg:flex-row lg:justify-start lg:pl-1">
           <div>
             <h1 className="text-2xl font-bold pb-3">Overview</h1>
+
             <h1 className="text-xl font-bold">What is an anesthesiologist?</h1>
+
             <p className="py-4">
               An anesthesiologist is a medical doctor who directs your
               anesthesia care, pain management and critical care before, during
               and after surgeries and invasive procedures.
             </p>
+
             <h1 className="text-xl font-bold">What is anesthesia?</h1>
+
             <p className="py-2">
               Anesthesia is a medical treatment that keeps you from feeling pain
               during procedures or surgery. The medications anesthesiologists
@@ -29,9 +33,11 @@ function Category() {
               local anesthetic, which only works to block pain at a certain
               local area of your body.
             </p>
+
             <h1 className="text-xl font-bold">
               Is an anesthesiologist a doctor?
             </h1>
+
             <p className="py-2">
               Yes, a physician anesthesiologist is a doctor, just like your
               surgeon and primary care provider. They have a Doctor of Medicine
@@ -39,9 +45,11 @@ function Category() {
               with their college degree and residency training after medical
               school, have 12 to 14 years of training in total.
             </p>
+
             <h1 className="text-xl font-bold">
               What does an anesthesiologist do?
             </h1>
+            
             <p className="py-2">
               Similar to your primary care doctor, your physician
               anesthesiologist manages all aspects of your medical care (blood
