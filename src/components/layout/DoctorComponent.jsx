@@ -9,10 +9,14 @@ function DoctorComponent({img, desig, title, desc}) {
         <figure className="px-10 pt-10">
           <img src={img} alt="" />
         </figure>
+
         <div className="card-body items-center text-center">
           <h2 className="card-title">{desig}</h2>
+
           <h2 className="card-side">{title}</h2>
+
           <p>{desc}</p>
+          
           <div className="card-actions">
             <Link to="/appointment">
               <button className="btn btn-primary">Make Appointment</button>

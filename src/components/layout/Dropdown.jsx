@@ -7,6 +7,7 @@ function Dropdown() {
         <div tabIndex={0} role="button" className="btn bg-[#7c9dcf]">
           <h2 className="flex gap-2 items-center">
             <IoIosArrowDropdownCircle />
+
             See_list
           </h2>
         </div>
@@ -17,30 +18,39 @@ function Dropdown() {
           <li>
             <a href="#">Appointment & Access</a>
           </li>
+
           <li>
             <a href="#">Accepted Insurance</a>
           </li>
+
           <li>
             <a href="#">Events Calendar</a>
           </li>
+
           <li>
             <a href="#">Finalcial Assistance</a>
           </li>
+
           <li>
             <a href="#">Give to Cleveland Clinic</a>
           </li>
+
           <li>
             <a href="#">Pay Your Bill Online</a>
           </li>
+
           <li>
             <a href="#">Refar a Patient</a>
           </li>
+
           <li>
             <a href="#">Phone Directory</a>
           </li>
+
           <li>
             <a href="#">Virtual Second Opinions</a>
           </li>
+          
           <li>
             <a href="#">Virtual Visits</a>
           </li>

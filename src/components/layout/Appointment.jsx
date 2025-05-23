@@ -8,33 +8,43 @@ function Appointment() {
           <label
             htmlFor=""
             className="text-2xl font-semibold m-5"
-          >MAKE APPOINTMENT</label>
+          >
+            MAKE APPOINTMENT
+          </label>
+
           <input
             type="text"
             placeholder="Full Name"
             className="input input-bordered w-full max-w-xs"
           />
+
           <input
             type="text"
             placeholder="Phone Number"
             className="input input-bordered w-full max-w-xs"
           />
+
           <input
             type="text"
             placeholder="Reason for Visit"
             className="input input-bordered w-full max-w-xs"
           />
+
           <input
             type="text"
             placeholder="Existing Conditions"
             className="input input-bordered w-full max-w-xs"
           />
+
           <input type="date" className="input input-bordered w-full max-w-xs" />
+
           <input type="time" className="input input-bordered w-full max-w-xs" />
+
           <textarea
             placeholder="Note for Doctor to see."
             className="input input-bordered w-full max-w-xs"
           ></textarea>
+          
           <div>
             <FormSubmitButton/>
           </div>

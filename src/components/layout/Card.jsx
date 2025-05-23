@@ -10,10 +10,14 @@ function Card({img, name, desc}) {
           <figure className="pt-7">{img}</figure>
           <div className="card-body ">
             <h2 className="card-title">{name}</h2>
+
             <p>{desc}</p>
+
             <div className="card-actions justify-end">
               <Link to="/DoctorP">
-                <button className="btn btn-accent">Doctor List</button>
+                <button className="btn btn-accent">
+                  Doctor List
+                </button>
               </Link>
             </div>
           </div>

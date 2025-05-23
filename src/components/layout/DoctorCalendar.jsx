@@ -9,6 +9,7 @@ function DoctorCalendar() {
     return (
       <>
         <b>{eventInfo.timeText}</b>
+        
         <i>{eventInfo.event.title}</i>
       </>
     );
@@ -18,6 +19,7 @@ function DoctorCalendar() {
     <div className='flex'>
       <div className="max-h-fit max-w-fit pb-1 bg-lime-200">
         <h1>Doctor Calender</h1>
+
         <FullCalendar
           plugins={[dayGridPlugin]}
           initialView="dayGridMonth"

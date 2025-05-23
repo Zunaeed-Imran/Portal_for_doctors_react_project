@@ -9,7 +9,9 @@ function RescheduleButton() {
 
   return (
     <div>
-      <button onClick={reschedule} className="btn btn-primary">Reschedule</button>
+      <button onClick={reschedule} className="btn btn-primary">
+        Reschedule
+      </button>
     </div>
   );
 }
