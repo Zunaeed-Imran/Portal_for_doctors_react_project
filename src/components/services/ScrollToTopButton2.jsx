@@ -31,7 +31,7 @@ function ScrollToTopButton2() {
   };
 
   return (
-    <div>
+    <>
       {/* Hero Section */}
       <section
         id="hero"
@@ -48,7 +48,7 @@ function ScrollToTopButton2() {
           <TbHandTwoFingers size={'1.5rem'} />
         </button>
       )}
-    </div>
+    </>
   );
 }
 

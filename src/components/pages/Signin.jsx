@@ -10,26 +10,31 @@ function Signin() {
             <label htmlFor="" className="text-2xl font-semibold m-5">
               Sing Up with new Account
             </label>
+            
             <input
               type="text"
               placeholder="Name"
               className="input input-bordered w-full max-w-xs"
             />
+            
             <input
               type="email"
               placeholder="Email"
               className="input input-bordered w-full max-w-xs"
             />
+            
             <input
               type="number"
               placeholder="Phone Number"
               className="input input-bordered w-full max-w-xs"
             />
+            
             <input
               type="password"
               placeholder="Set A Password"
               className="input input-bordered w-full max-w-xs"
             />
+            
             <div>
               <button className="btn btn-primary">Sign-in</button>
             </div>
@@ -37,6 +42,7 @@ function Signin() {
           <div className="py-5">
             <p>
               Already have an account?
+              
               <Link className="link link-primary" to="/login">
                 Login
               </Link>

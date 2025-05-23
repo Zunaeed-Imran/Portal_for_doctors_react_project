@@ -5,6 +5,7 @@ function ReminderPatientFollowUp() {
     <div className="ml-10 pt-10">
       <div>
         <h1 className="text-3xl font-bold pb-2">Follow-up Reminder System Page.</h1>
+        
         <div className="">
           <div className="">
             <span className="label-text text-xl pb-3">Dear [Patients Imran],</span>
