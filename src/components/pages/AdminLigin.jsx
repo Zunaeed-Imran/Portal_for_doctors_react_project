@@ -10,16 +10,19 @@ function AdminLigin() {
             <label htmlFor="" className="text-2xl font-semibold m-5">
               Admin login Page
             </label>
+
             <input
               type="email"
               placeholder="Email"
               className="input input-bordered w-full max-w-xs"
             />
+
             <input
               type="password"
               placeholder="Password"
               className="input input-bordered w-full max-w-xs"
             />
+            
             <div>
               <Link to="/admindashboard" className="btn btn-primary">
                 Log-in

@@ -5,10 +5,11 @@ import PatientDashboard from "../pages/PatientDashboard"
 
 function PatientDashboardOutlet() {
   return (
-    <div>
-      <PatientDashboard/>
+    <>
+      <PatientDashboard />
+      
       <Outlet/>
-    </div>
+    </>
   )
 }
 

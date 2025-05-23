@@ -9,14 +9,16 @@ import PageTitle from "../PageTitle";
 
 function DoctorProfile() {
   return (
-    <div>
+    <>
       <PageTitle title='Doctors'/>
       <div className="grid grid-cols-3 gap-3 pt-20">
         <div className="col-span-2">
           <Search />
         </div>
+
         <DoctorAvailability />
       </div>
+
       <div className="flex box-content pt-24 gap-1 justify-center items-center">
         <DoctorComponent
           img={doctor1}
@@ -26,6 +28,7 @@ function DoctorProfile() {
             "Professional Background: Dr. Jane Doe is a board-certified cardiologist with over 15 years of experience in diagnosing and treating cardiovascular diseases."
           }
         />
+
         <DoctorComponent
           img={doctor6}
           desig={"Dr.Jordon Hess"}
@@ -34,6 +37,7 @@ function DoctorProfile() {
             "Professional Background: Dr. Jane Doe is a board-certified cardiologist with over 15 years of experience in diagnosing and treating cardiovascular diseases."
           }
         />
+
         <DoctorComponent
           img={doctor4}
           desig={"Dr.Lily Miranda"}
@@ -43,9 +47,11 @@ function DoctorProfile() {
           }
         />
       </div>
+
       <div className="flex p-3 gap-3"></div>
+      
       <Footer />
-    </div>
+    </>
   );
 }
 

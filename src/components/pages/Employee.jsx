@@ -1,5 +1,3 @@
-
-
 function Employee() {
   return (
     <div className="pt-10">

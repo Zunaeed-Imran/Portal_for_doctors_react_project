@@ -12,15 +12,21 @@ function QuickAppointmentPreTime() {
           <h2 className="card-title">
             Reschedule the Appointment.
           </h2>
+
           <p>Quickly Appointment Booking with Pre-set Time Slots.</p>
+
           <select className="select bg-lime-600	 select-bordered w-full max-w-xs">
             <option disabled selected>
               Select Time
             </option>
+
             <option>9:00–9:30</option>
+
             <option>10:00–10:30</option>
+
             <option>11:00–11:30</option>
           </select>
+          
           <div className="card-actions justify-end">
             <RescheduleButton/>
           </div>

@@ -15,21 +15,27 @@ function Logo() {
           <a >
             <FaLinkedin color="#2f88cc" />
           </a>
+
           <a >
             <FaSquareXTwitter />
           </a>
+
           <a >
             <ImGithub />
           </a>
+
           <a >
             <FaGooglePlay color="#33d448" />
           </a>
+
           <a >
             <FaInstagramSquare color="#d802eb" />
           </a>
+
           <a >
             <FaFacebookSquare color="#3358b5" />
           </a>
+          
           <a >
             <FaYoutube color="red" />
           </a>

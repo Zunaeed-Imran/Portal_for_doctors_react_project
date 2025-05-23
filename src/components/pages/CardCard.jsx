@@ -17,36 +17,43 @@ function CardCard() {
         name={'Health Care  '}
         desc={'Specialist amet consectetur adipisicing elit. Conse'}
       />
+
       <Card
         img={<LiaTeethOpenSolid size="6rem" />}
         name={'Fluoride Treatment'}
         desc={'Specialist amet consectetur adipisicing elit. Conse'}
       />
+
       <Card
         img={<IoEye size="6rem" color="#2e5de8" />}
         name={'Eye Specialist'}
         desc={'Specialist amet consectetur adipisicing elit. Conse'}
       />
+
       <Card
         img={<FaBrain size="6rem" color="	#f3b5b8" />}
         name={'Brain Specialist'}
         desc={'Specialist amet consectetur adipisicing elit. Conse'}
       />
+
       <Card
         img={<FaLungs size="6rem" color="#d42257" />}
         name={'Lung Treatment'}
         desc={'Specialist amet consectetur adipisicing elit. Conse'}
       />
+
       <Card
         img={<GiKidneys size="6rem" color="#9e0533" />}
         name={'Kidney Transplant'}
         desc={'Specialist amet consectetur adipisicing elit. Conse'}
       />
+
       <Card
         img={<SiKnip size="6rem" color="#9e0533" />}
         name={'General Surgery'}
         desc={'Specialist amet consectetur adipisicing elit. Conse'}
       />
+      
       <Card
         img={<RxHobbyKnife size="6rem" color="#9e0533" />}
         name={'Orthopedic Surgery'}

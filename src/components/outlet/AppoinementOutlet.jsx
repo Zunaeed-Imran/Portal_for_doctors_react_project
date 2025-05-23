@@ -4,10 +4,11 @@ import AppointMentScheduling from "../pages/AppointMentScheduling"
 
 function AppoinementOutlet() {
   return (
-    <div>
-      <AppointMentScheduling/>
+    <>
+      <AppointMentScheduling />
+      
       <Outlet/>
-    </div>
+    </>
   )
 }
 
