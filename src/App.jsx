@@ -14,11 +14,17 @@ function App() {
     <>
       <div>
         <PageTitle title="AnestheSure" />
+
         <Hero />
+
         <Category />
+
         <CardCard />
+
         <ReviewCard />
+
         <MessageReviewMessage />
+        
         <Footer />
       </div>
     </>
